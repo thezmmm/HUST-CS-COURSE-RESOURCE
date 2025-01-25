@@ -1,0 +1,989 @@
+('Instant food products',),	0.008032536858159633
+('UHT-milk',),	0.03345195729537367
+('baking powder',),	0.017691916624300967
+('beef',),	0.05246568378240976
+('berries',),	0.033248601931875954
+('beverages',),	0.026029486527707167
+('bottled beer',),	0.08052872394509406
+('bottled water',),	0.11052364006100661
+('brown bread',),	0.06487036095577021
+('butter',),	0.05541433655312659
+('butter milk',),	0.027961362480935434
+('cake bar',),	0.013218098627351297
+('candles',),	0.008947635993899338
+('candy',),	0.0298932384341637
+('canned beer',),	0.07768174885612608
+('canned fish',),	0.015048296898830707
+('canned vegetables',),	0.010777834265378749
+('cat food',),	0.023284189120488054
+('cereals',),	0.0056939501779359435
+('chewing gum',),	0.021047280122013217
+('chicken',),	0.04290798169801729
+('chocolate',),	0.04961870869344179
+('chocolate marshmallow',),	0.009049313675648195
+('citrus fruit',),	0.08276563294356888
+('cleaner',),	0.005083884087442806
+('cling film/bags',),	0.011387900355871887
+('coffee',),	0.05805795627859685
+('condensed milk',),	0.010269445856634469
+('cream cheese ',),	0.03965429588205389
+('curd',),	0.05327910523640061
+('curd cheese',),	0.005083884087442806
+('dental care',),	0.005795627859684799
+('dessert',),	0.03711235383833249
+('detergent',),	0.019217081850533807
+('dish cleaner',),	0.01047280122013218
+('dishes',),	0.01759023894255211
+('dog food',),	0.008540925266903915
+('domestic eggs',),	0.06344687341128623
+('female sanitary products',),	0.006100660904931368
+('finished products',),	0.006507371631926792
+('flour',),	0.017386883579054397
+('flower (seeds)',),	0.010371123538383325
+('frankfurter',),	0.058973055414336555
+('frozen dessert',),	0.010777834265378749
+('frozen fish',),	0.011692933401118455
+('frozen meals',),	0.02836807320793086
+('frozen potato products',),	0.008439247585155059
+('frozen vegetables',),	0.04809354346720895
+('fruit/vegetable juice',),	0.0722928317234367
+('grapes',),	0.022369089984748347
+('ham',),	0.026029486527707167
+('hamburger meat',),	0.033248601931875954
+('hard cheese',),	0.024504321301474327
+('herbs',),	0.01626842907981698
+('house keeping products',),	0.008337569903406202
+('hygiene articles',),	0.03294356888662939
+('ice cream',),	0.025012709710218607
+('instant coffee',),	0.007422470767666497
+('jam',),	0.005388917132689374
+('kitchen towels',),	0.005998983223182512
+('liquor',),	0.011082867310625319
+('liquor (appetizer)',),	0.007930859176410779
+('liver loaf',),	0.005083884087442806
+('long life bakery product',),	0.037417386883579054
+('margarine',),	0.05856634468734113
+('mayonnaise',),	0.009150991357397052
+('meat',),	0.025826131164209457
+('misc. beverages',),	0.02836807320793086
+('mustard',),	0.011997966446365024
+('napkins',),	0.05236400610066091
+('newspapers',),	0.07981698017285206
+('oil',),	0.02806304016268429
+('onions',),	0.031011692933401117
+('other vegetables',),	0.1934926283680732
+('packaged fruit/vegetables',),	0.013014743263853584
+('pasta',),	0.015048296898830707
+('pastry',),	0.08896797153024912
+('pet care',),	0.00945602440264362
+('photo/film',),	0.009252669039145907
+('pickled vegetables',),	0.017895271987798677
+('pip fruit',),	0.07564819522114896
+('popcorn',),	0.007219115404168785
+('pork',),	0.05765124555160142
+('pot plants',),	0.01728520589730554
+('processed cheese',),	0.016573462125063547
+('red/blush wine',),	0.019217081850533807
+('rice',),	0.007625826131164209
+('roll products ',),	0.010269445856634469
+('rolls/buns',),	0.18393492628368074
+('root vegetables',),	0.10899847483477376
+('salt',),	0.010777834265378749
+('salty snack',),	0.03782409761057448
+('sauces',),	0.005490594814438231
+('sausage',),	0.09395017793594305
+('seasonal products',),	0.014234875444839857
+('semi-finished bread',),	0.017691916624300967
+('shopping bags',),	0.09852567361464158
+('sliced cheese',),	0.024504321301474327
+('soda',),	0.17437722419928825
+('soft cheese',),	0.01708185053380783
+('softener',),	0.005490594814438231
+('soups',),	0.00681240467717336
+('sparkling wine',),	0.005592272496187087
+('specialty bar',),	0.027351296390442297
+('specialty cheese',),	0.008540925266903915
+('specialty chocolate',),	0.03040162684290798
+('spices',),	0.005185561769191663
+('spread cheese',),	0.011184544992374174
+('sugar',),	0.03385866802236909
+('sweet spreads',),	0.009049313675648195
+('tropical fruit',),	0.10493136756481952
+('turkey',),	0.00813421453990849
+('vinegar',),	0.006507371631926792
+('waffles',),	0.038434163701067614
+('whipped/sour cream',),	0.07168276563294357
+('white bread',),	0.042094560244026434
+('white wine',),	0.019013726487036097
+('whole milk',),	0.25551601423487547
+('yogurt',),	0.13950177935943062
+('zwieback',),	0.006914082358922217
+('UHT-milk', 'bottled water'),	0.007320793085917641
+('other vegetables', 'UHT-milk'),	0.00813421453990849
+('UHT-milk', 'rolls/buns'),	0.006405693950177936
+('soda', 'UHT-milk'),	0.007625826131164209
+('UHT-milk', 'yogurt'),	0.007422470767666497
+('other vegetables', 'baking powder'),	0.007320793085917641
+('baking powder', 'whole milk'),	0.009252669039145907
+('beef', 'bottled water'),	0.0062023385866802234
+('beef', 'butter'),	0.005795627859684799
+('beef', 'citrus fruit'),	0.008439247585155059
+('beef', 'domestic eggs'),	0.005998983223182512
+('beef', 'fruit/vegetable juice'),	0.005083884087442806
+('beef', 'margarine'),	0.0062023385866802234
+('beef', 'newspapers'),	0.006405693950177936
+('beef', 'other vegetables'),	0.019725470259278087
+('beef', 'pastry'),	0.00630401626842908
+('beef', 'pork'),	0.007625826131164209
+('beef', 'rolls/buns'),	0.01362480935434672
+('beef', 'root vegetables'),	0.017386883579054397
+('beef', 'sausage'),	0.005592272496187087
+('beef', 'soda'),	0.00813421453990849
+('beef', 'tropical fruit'),	0.007625826131164209
+('beef', 'whipped/sour cream'),	0.006710726995424504
+('beef', 'whole milk'),	0.02125063548551093
+('beef', 'yogurt'),	0.011692933401118455
+('berries', 'citrus fruit'),	0.005388917132689374
+('other vegetables', 'berries'),	0.010269445856634469
+('berries', 'rolls/buns'),	0.0066090493136756485
+('berries', 'root vegetables'),	0.0066090493136756485
+('berries', 'soda'),	0.007320793085917641
+('berries', 'tropical fruit'),	0.006710726995424504
+('berries', 'whipped/sour cream'),	0.009049313675648195
+('berries', 'whole milk'),	0.01179461108286731
+('berries', 'yogurt'),	0.010574478901881037
+('other vegetables', 'beverages'),	0.005185561769191663
+('beverages', 'rolls/buns'),	0.005388917132689374
+('beverages', 'whole milk'),	0.00681240467717336
+('beverages', 'yogurt'),	0.005490594814438231
+('bottled water', 'bottled beer'),	0.0157600406710727
+('brown bread', 'bottled beer'),	0.005185561769191663
+('butter', 'bottled beer'),	0.005795627859684799
+('citrus fruit', 'bottled beer'),	0.006100660904931368
+('frankfurter', 'bottled beer'),	0.005388917132689374
+('fruit/vegetable juice', 'bottled beer'),	0.007015760040671073
+('margarine', 'bottled beer'),	0.006100660904931368
+('napkins', 'bottled beer'),	0.005185561769191663
+('other vegetables', 'bottled beer'),	0.016166751398068124
+('pip fruit', 'bottled beer'),	0.005897305541433655
+('pork', 'bottled beer'),	0.005185561769191663
+('rolls/buns', 'bottled beer'),	0.01362480935434672
+('root vegetables', 'bottled beer'),	0.009659379766141332
+('sausage', 'bottled beer'),	0.007829181494661922
+('shopping bags', 'bottled beer'),	0.005592272496187087
+('soda', 'bottled beer'),	0.016980172852058974
+('tropical fruit', 'bottled beer'),	0.008235892221657347
+('whole milk', 'bottled beer'),	0.02043721403152008
+('yogurt', 'bottled beer'),	0.009252669039145907
+('brown bread', 'bottled water'),	0.008235892221657347
+('bottled water', 'butter'),	0.008947635993899338
+('canned beer', 'bottled water'),	0.008032536858159633
+('chicken', 'bottled water'),	0.0052872394509405184
+('chocolate', 'bottled water'),	0.005795627859684799
+('bottled water', 'citrus fruit'),	0.013523131672597865
+('bottled water', 'coffee'),	0.007320793085917641
+('cream cheese ', 'bottled water'),	0.005897305541433655
+('bottled water', 'curd'),	0.006100660904931368
+('dessert', 'bottled water'),	0.005185561769191663
+('bottled water', 'domestic eggs'),	0.009150991357397052
+('frankfurter', 'bottled water'),	0.007320793085917641
+('bottled water', 'frozen vegetables'),	0.0062023385866802234
+('fruit/vegetable juice', 'bottled water'),	0.014234875444839857
+('bottled water', 'hygiene articles'),	0.0056939501779359435
+('bottled water', 'margarine'),	0.010269445856634469
+('misc. beverages', 'bottled water'),	0.0052872394509405184
+('napkins', 'bottled water'),	0.00864260294865277
+('newspapers', 'bottled water'),	0.01128622267412303
+('bottled water', 'onions'),	0.005897305541433655
+('other vegetables', 'bottled water'),	0.024809354346720894
+('pastry', 'bottled water'),	0.008947635993899338
+('bottled water', 'pip fruit'),	0.010574478901881037
+('pork', 'bottled water'),	0.007422470767666497
+('rolls/buns', 'bottled water'),	0.024199288256227757
+('bottled water', 'root vegetables'),	0.015658362989323844
+('bottled water', 'sausage'),	0.011997966446365024
+('shopping bags', 'bottled water'),	0.010981189628876462
+('soda', 'bottled water'),	0.028978139298423997
+('tropical fruit', 'bottled water'),	0.018505338078291814
+('whipped/sour cream', 'bottled water'),	0.008744280630401627
+('whole milk', 'bottled water'),	0.03436705643111337
+('yogurt', 'bottled water'),	0.022979156075241484
+('brown bread', 'butter'),	0.005795627859684799
+('brown bread', 'citrus fruit'),	0.008337569903406202
+('brown bread', 'domestic eggs'),	0.00681240467717336
+('frankfurter', 'brown bread'),	0.0071174377224199285
+('fruit/vegetable juice', 'brown bread'),	0.008337569903406202
+('brown bread', 'margarine'),	0.006507371631926792
+('newspapers', 'brown bread'),	0.007625826131164209
+('other vegetables', 'brown bread'),	0.018708693441789527
+('pastry', 'brown bread'),	0.009659379766141332
+('brown bread', 'pip fruit'),	0.007625826131164209
+('pork', 'brown bread'),	0.005592272496187087
+('rolls/buns', 'brown bread'),	0.01260803253685816
+('brown bread', 'root vegetables'),	0.010167768174885612
+('brown bread', 'sausage'),	0.010676156583629894
+('shopping bags', 'brown bread'),	0.009252669039145907
+('soda', 'brown bread'),	0.01260803253685816
+('tropical fruit', 'brown bread'),	0.010676156583629894
+('whole milk', 'brown bread'),	0.02521606507371632
+('yogurt', 'brown bread'),	0.014539908490086425
+('chicken', 'butter'),	0.005795627859684799
+('chocolate', 'butter'),	0.0062023385866802234
+('butter', 'citrus fruit'),	0.009150991357397052
+('butter', 'curd'),	0.00681240467717336
+('butter', 'domestic eggs'),	0.009659379766141332
+('butter', 'frozen vegetables'),	0.005795627859684799
+('fruit/vegetable juice', 'butter'),	0.008032536858159633
+('butter', 'margarine'),	0.006710726995424504
+('newspapers', 'butter'),	0.005795627859684799
+('other vegetables', 'butter'),	0.020030503304524657
+('pastry', 'butter'),	0.007625826131164209
+('butter', 'pip fruit'),	0.007320793085917641
+('pork', 'butter'),	0.005490594814438231
+('rolls/buns', 'butter'),	0.013421453990849009
+('butter', 'root vegetables'),	0.012913065582104729
+('butter', 'sausage'),	0.00864260294865277
+('soda', 'butter'),	0.008845958312150484
+('tropical fruit', 'butter'),	0.0099644128113879
+('whipped/sour cream', 'butter'),	0.010167768174885612
+('whole milk', 'butter'),	0.02755465175394001
+('yogurt', 'butter'),	0.014641586171835282
+('other vegetables', 'butter milk'),	0.010371123538383325
+('butter milk', 'pip fruit'),	0.005083884087442806
+('butter milk', 'rolls/buns'),	0.007625826131164209
+('butter milk', 'root vegetables'),	0.005083884087442806
+('butter milk', 'tropical fruit'),	0.005490594814438231
+('butter milk', 'whole milk'),	0.011591255719369599
+('butter milk', 'yogurt'),	0.008540925266903915
+('cake bar', 'whole milk'),	0.005592272496187087
+('other vegetables', 'candy'),	0.006914082358922217
+('rolls/buns', 'candy'),	0.0071174377224199285
+('soda', 'candy'),	0.00864260294865277
+('tropical fruit', 'candy'),	0.005388917132689374
+('whole milk', 'candy'),	0.008235892221657347
+('yogurt', 'candy'),	0.005490594814438231
+('canned beer', 'other vegetables'),	0.009049313675648195
+('canned beer', 'rolls/buns'),	0.01128622267412303
+('canned beer', 'sausage'),	0.00630401626842908
+('canned beer', 'shopping bags'),	0.011387900355871887
+('canned beer', 'soda'),	0.013828164717844434
+('canned beer', 'whole milk'),	0.008845958312150484
+('canned beer', 'yogurt'),	0.005388917132689374
+('other vegetables', 'canned fish'),	0.005083884087442806
+('other vegetables', 'cat food'),	0.006507371631926792
+('cat food', 'whole milk'),	0.008845958312150484
+('cat food', 'yogurt'),	0.0062023385866802234
+('chewing gum', 'soda'),	0.005388917132689374
+('chewing gum', 'whole milk'),	0.005083884087442806
+('chicken', 'citrus fruit'),	0.006914082358922217
+('chicken', 'domestic eggs'),	0.0062023385866802234
+('chicken', 'frozen vegetables'),	0.006710726995424504
+('chicken', 'newspapers'),	0.005185561769191663
+('other vegetables', 'chicken'),	0.017895271987798677
+('chicken', 'pork'),	0.005795627859684799
+('chicken', 'rolls/buns'),	0.009659379766141332
+('chicken', 'root vegetables'),	0.010879511947127605
+('chicken', 'sausage'),	0.0052872394509405184
+('soda', 'chicken'),	0.008337569903406202
+('chicken', 'tropical fruit'),	0.006405693950177936
+('whipped/sour cream', 'chicken'),	0.007219115404168785
+('chicken', 'whole milk'),	0.01759023894255211
+('chicken', 'yogurt'),	0.008337569903406202
+('chocolate', 'citrus fruit'),	0.006405693950177936
+('fruit/vegetable juice', 'chocolate'),	0.00681240467717336
+('chocolate', 'long life bakery product'),	0.0052872394509405184
+('chocolate', 'newspapers'),	0.005490594814438231
+('other vegetables', 'chocolate'),	0.012709710218607015
+('pastry', 'chocolate'),	0.008032536858159633
+('chocolate', 'pip fruit'),	0.006100660904931368
+('chocolate', 'rolls/buns'),	0.01179461108286731
+('chocolate', 'root vegetables'),	0.006405693950177936
+('chocolate', 'sausage'),	0.0066090493136756485
+('chocolate', 'shopping bags'),	0.00813421453990849
+('soda', 'chocolate'),	0.013523131672597865
+('chocolate', 'tropical fruit'),	0.00813421453990849
+('chocolate', 'waffles'),	0.005795627859684799
+('chocolate', 'whole milk'),	0.016675139806812404
+('chocolate', 'yogurt'),	0.009252669039145907
+('coffee', 'citrus fruit'),	0.006405693950177936
+('cream cheese ', 'citrus fruit'),	0.0056939501779359435
+('curd', 'citrus fruit'),	0.0071174377224199285
+('domestic eggs', 'citrus fruit'),	0.010371123538383325
+('frankfurter', 'citrus fruit'),	0.006507371631926792
+('frozen vegetables', 'citrus fruit'),	0.0066090493136756485
+('fruit/vegetable juice', 'citrus fruit'),	0.010371123538383325
+('hygiene articles', 'citrus fruit'),	0.0052872394509405184
+('margarine', 'citrus fruit'),	0.007930859176410779
+('napkins', 'citrus fruit'),	0.007625826131164209
+('newspapers', 'citrus fruit'),	0.008337569903406202
+('onions', 'citrus fruit'),	0.005592272496187087
+('other vegetables', 'citrus fruit'),	0.02887646161667514
+('pastry', 'citrus fruit'),	0.009761057447890189
+('pip fruit', 'citrus fruit'),	0.013828164717844434
+('pork', 'citrus fruit'),	0.006507371631926792
+('rolls/buns', 'citrus fruit'),	0.01677681748856126
+('root vegetables', 'citrus fruit'),	0.017691916624300967
+('sausage', 'citrus fruit'),	0.01128622267412303
+('shopping bags', 'citrus fruit'),	0.009761057447890189
+('soda', 'citrus fruit'),	0.012811387900355872
+('tropical fruit', 'citrus fruit'),	0.0199288256227758
+('whipped/sour cream', 'citrus fruit'),	0.010879511947127605
+('whole milk', 'citrus fruit'),	0.030503304524656837
+('yogurt', 'citrus fruit'),	0.021657346212506354
+('frankfurter', 'coffee'),	0.005083884087442806
+('fruit/vegetable juice', 'coffee'),	0.005998983223182512
+('other vegetables', 'coffee'),	0.013421453990849009
+('pastry', 'coffee'),	0.006914082358922217
+('pip fruit', 'coffee'),	0.006914082358922217
+('rolls/buns', 'coffee'),	0.010981189628876462
+('root vegetables', 'coffee'),	0.007320793085917641
+('sausage', 'coffee'),	0.006914082358922217
+('shopping bags', 'coffee'),	0.009354346720894764
+('soda', 'coffee'),	0.0099644128113879
+('tropical fruit', 'coffee'),	0.0071174377224199285
+('whipped/sour cream', 'coffee'),	0.006100660904931368
+('whole milk', 'coffee'),	0.018708693441789527
+('yogurt', 'coffee'),	0.009761057447890189
+('cream cheese ', 'curd'),	0.005083884087442806
+('cream cheese ', 'domestic eggs'),	0.005083884087442806
+('fruit/vegetable juice', 'cream cheese '),	0.0056939501779359435
+('other vegetables', 'cream cheese '),	0.013726487036095577
+('cream cheese ', 'pip fruit'),	0.006100660904931368
+('cream cheese ', 'rolls/buns'),	0.0099644128113879
+('cream cheese ', 'root vegetables'),	0.0075241484494153535
+('cream cheese ', 'sausage'),	0.005592272496187087
+('cream cheese ', 'shopping bags'),	0.005592272496187087
+('soda', 'cream cheese '),	0.00681240467717336
+('cream cheese ', 'tropical fruit'),	0.007219115404168785
+('cream cheese ', 'whipped/sour cream'),	0.006405693950177936
+('cream cheese ', 'whole milk'),	0.016471784443314694
+('cream cheese ', 'yogurt'),	0.012404677173360447
+('dessert', 'curd'),	0.005185561769191663
+('domestic eggs', 'curd'),	0.006507371631926792
+('margarine', 'curd'),	0.00630401626842908
+('newspapers', 'curd'),	0.0056939501779359435
+('other vegetables', 'curd'),	0.017183528215556684
+('pastry', 'curd'),	0.0075241484494153535
+('pip fruit', 'curd'),	0.007829181494661922
+('rolls/buns', 'curd'),	0.010066090493136757
+('root vegetables', 'curd'),	0.010879511947127605
+('sausage', 'curd'),	0.007625826131164209
+('shopping bags', 'curd'),	0.005388917132689374
+('soda', 'curd'),	0.00813421453990849
+('tropical fruit', 'curd'),	0.010269445856634469
+('whipped/sour cream', 'curd'),	0.01047280122013218
+('whole milk', 'curd'),	0.026131164209456024
+('yogurt', 'curd'),	0.01728520589730554
+('dessert', 'fruit/vegetable juice'),	0.005998983223182512
+('other vegetables', 'dessert'),	0.011591255719369599
+('pastry', 'dessert'),	0.005388917132689374
+('dessert', 'rolls/buns'),	0.00681240467717336
+('dessert', 'root vegetables'),	0.005795627859684799
+('dessert', 'sausage'),	0.005897305541433655
+('dessert', 'shopping bags'),	0.0062023385866802234
+('dessert', 'soda'),	0.009862735129639044
+('dessert', 'tropical fruit'),	0.00630401626842908
+('dessert', 'whole milk'),	0.013726487036095577
+('dessert', 'yogurt'),	0.009862735129639044
+('other vegetables', 'detergent'),	0.006405693950177936
+('detergent', 'whole milk'),	0.008947635993899338
+('other vegetables', 'dishes'),	0.005998983223182512
+('whole milk', 'dishes'),	0.0052872394509405184
+('frankfurter', 'domestic eggs'),	0.007015760040671073
+('frozen vegetables', 'domestic eggs'),	0.005185561769191663
+('fruit/vegetable juice', 'domestic eggs'),	0.008032536858159633
+('domestic eggs', 'margarine'),	0.008337569903406202
+('napkins', 'domestic eggs'),	0.005998983223182512
+('newspapers', 'domestic eggs'),	0.006914082358922217
+('other vegetables', 'domestic eggs'),	0.02226741230299949
+('pastry', 'domestic eggs'),	0.009049313675648195
+('pip fruit', 'domestic eggs'),	0.00864260294865277
+('pork', 'domestic eggs'),	0.005592272496187087
+('rolls/buns', 'domestic eggs'),	0.015658362989323844
+('domestic eggs', 'root vegetables'),	0.014336553126588714
+('sausage', 'domestic eggs'),	0.009557702084392475
+('shopping bags', 'domestic eggs'),	0.009049313675648195
+('soda', 'domestic eggs'),	0.012404677173360447
+('tropical fruit', 'domestic eggs'),	0.011387900355871887
+('whipped/sour cream', 'domestic eggs'),	0.0099644128113879
+('white bread', 'domestic eggs'),	0.005795627859684799
+('whole milk', 'domestic eggs'),	0.029994916115912557
+('yogurt', 'domestic eggs'),	0.014336553126588714
+('other vegetables', 'flour'),	0.00630401626842908
+('flour', 'whole milk'),	0.008439247585155059
+('frankfurter', 'frozen vegetables'),	0.005083884087442806
+('fruit/vegetable juice', 'frankfurter'),	0.0052872394509405184
+('frankfurter', 'margarine'),	0.006405693950177936
+('other vegetables', 'frankfurter'),	0.016471784443314694
+('pastry', 'frankfurter'),	0.008337569903406202
+('frankfurter', 'pip fruit'),	0.007219115404168785
+('frankfurter', 'pork'),	0.005897305541433655
+('frankfurter', 'rolls/buns'),	0.019217081850533807
+('frankfurter', 'root vegetables'),	0.010167768174885612
+('frankfurter', 'sausage'),	0.010066090493136757
+('frankfurter', 'shopping bags'),	0.008235892221657347
+('soda', 'frankfurter'),	0.01128622267412303
+('frankfurter', 'tropical fruit'),	0.00945602440264362
+('whipped/sour cream', 'frankfurter'),	0.0062023385866802234
+('white bread', 'frankfurter'),	0.005185561769191663
+('frankfurter', 'whole milk'),	0.020538891713268937
+('frankfurter', 'yogurt'),	0.011184544992374174
+('other vegetables', 'frozen meals'),	0.0075241484494153535
+('soda', 'frozen meals'),	0.0062023385866802234
+('tropical fruit', 'frozen meals'),	0.005490594814438231
+('whole milk', 'frozen meals'),	0.009862735129639044
+('yogurt', 'frozen meals'),	0.0062023385866802234
+('fruit/vegetable juice', 'frozen vegetables'),	0.007829181494661922
+('frozen vegetables', 'margarine'),	0.005083884087442806
+('other vegetables', 'frozen vegetables'),	0.017793594306049824
+('pip fruit', 'frozen vegetables'),	0.007320793085917641
+('pork', 'frozen vegetables'),	0.006405693950177936
+('rolls/buns', 'frozen vegetables'),	0.010167768174885612
+('frozen vegetables', 'root vegetables'),	0.011591255719369599
+('sausage', 'frozen vegetables'),	0.005998983223182512
+('soda', 'frozen vegetables'),	0.00864260294865277
+('tropical fruit', 'frozen vegetables'),	0.008744280630401627
+('whipped/sour cream', 'frozen vegetables'),	0.007930859176410779
+('whole milk', 'frozen vegetables'),	0.02043721403152008
+('yogurt', 'frozen vegetables'),	0.012404677173360447
+('fruit/vegetable juice', 'long life bakery product'),	0.0062023385866802234
+('fruit/vegetable juice', 'margarine'),	0.0062023385866802234
+('napkins', 'fruit/vegetable juice'),	0.006914082358922217
+('fruit/vegetable juice', 'newspapers'),	0.008235892221657347
+('other vegetables', 'fruit/vegetable juice'),	0.021047280122013217
+('pastry', 'fruit/vegetable juice'),	0.008540925266903915
+('fruit/vegetable juice', 'pip fruit'),	0.009557702084392475
+('fruit/vegetable juice', 'rolls/buns'),	0.014539908490086425
+('fruit/vegetable juice', 'root vegetables'),	0.011997966446365024
+('fruit/vegetable juice', 'salty snack'),	0.005998983223182512
+('fruit/vegetable juice', 'sausage'),	0.010066090493136757
+('fruit/vegetable juice', 'shopping bags'),	0.010676156583629894
+('fruit/vegetable juice', 'soda'),	0.01840366039654296
+('fruit/vegetable juice', 'tropical fruit'),	0.013726487036095577
+('fruit/vegetable juice', 'whipped/sour cream'),	0.009049313675648195
+('fruit/vegetable juice', 'white bread'),	0.007422470767666497
+('fruit/vegetable juice', 'whole milk'),	0.026639552618200304
+('fruit/vegetable juice', 'yogurt'),	0.018708693441789527
+('other vegetables', 'grapes'),	0.009049313675648195
+('tropical fruit', 'grapes'),	0.006100660904931368
+('whole milk', 'grapes'),	0.007320793085917641
+('other vegetables', 'ham'),	0.009150991357397052
+('ham', 'rolls/buns'),	0.006914082358922217
+('ham', 'tropical fruit'),	0.005388917132689374
+('ham', 'white bread'),	0.005083884087442806
+('ham', 'whole milk'),	0.011489578037620742
+('ham', 'yogurt'),	0.006710726995424504
+('hamburger meat', 'other vegetables'),	0.013828164717844434
+('hamburger meat', 'rolls/buns'),	0.00864260294865277
+('hamburger meat', 'root vegetables'),	0.0062023385866802234
+('hamburger meat', 'sausage'),	0.005185561769191663
+('hamburger meat', 'soda'),	0.005795627859684799
+('hamburger meat', 'whole milk'),	0.014743263853584139
+('hamburger meat', 'yogurt'),	0.006507371631926792
+('other vegetables', 'hard cheese'),	0.00945602440264362
+('hard cheese', 'rolls/buns'),	0.005897305541433655
+('hard cheese', 'root vegetables'),	0.005592272496187087
+('hard cheese', 'sausage'),	0.005185561769191663
+('hard cheese', 'whole milk'),	0.010066090493136757
+('hard cheese', 'yogurt'),	0.006405693950177936
+('other vegetables', 'herbs'),	0.007727503812913066
+('herbs', 'root vegetables'),	0.007015760040671073
+('herbs', 'whole milk'),	0.007727503812913066
+('napkins', 'hygiene articles'),	0.006100660904931368
+('other vegetables', 'hygiene articles'),	0.009557702084392475
+('rolls/buns', 'hygiene articles'),	0.005897305541433655
+('hygiene articles', 'root vegetables'),	0.005388917132689374
+('shopping bags', 'hygiene articles'),	0.005185561769191663
+('soda', 'hygiene articles'),	0.007015760040671073
+('tropical fruit', 'hygiene articles'),	0.006710726995424504
+('whole milk', 'hygiene articles'),	0.012811387900355872
+('yogurt', 'hygiene articles'),	0.007320793085917641
+('ice cream', 'other vegetables'),	0.005083884087442806
+('ice cream', 'soda'),	0.006100660904931368
+('ice cream', 'whole milk'),	0.005897305541433655
+('other vegetables', 'long life bakery product'),	0.010676156583629894
+('pastry', 'long life bakery product'),	0.005897305541433655
+('rolls/buns', 'long life bakery product'),	0.007930859176410779
+('root vegetables', 'long life bakery product'),	0.0052872394509405184
+('sausage', 'long life bakery product'),	0.005388917132689374
+('shopping bags', 'long life bakery product'),	0.005388917132689374
+('soda', 'long life bakery product'),	0.007625826131164209
+('tropical fruit', 'long life bakery product'),	0.00630401626842908
+('whipped/sour cream', 'long life bakery product'),	0.005795627859684799
+('whole milk', 'long life bakery product'),	0.013523131672597865
+('yogurt', 'long life bakery product'),	0.008744280630401627
+('newspapers', 'margarine'),	0.0071174377224199285
+('other vegetables', 'margarine'),	0.019725470259278087
+('pastry', 'margarine'),	0.00681240467717336
+('pip fruit', 'margarine'),	0.008540925266903915
+('pork', 'margarine'),	0.006405693950177936
+('rolls/buns', 'margarine'),	0.014743263853584139
+('margarine', 'root vegetables'),	0.011082867310625319
+('sausage', 'margarine'),	0.0071174377224199285
+('shopping bags', 'margarine'),	0.0056939501779359435
+('soda', 'margarine'),	0.010167768174885612
+('sugar', 'margarine'),	0.005490594814438231
+('tropical fruit', 'margarine'),	0.009354346720894764
+('whipped/sour cream', 'margarine'),	0.00681240467717336
+('whole milk', 'margarine'),	0.024199288256227757
+('yogurt', 'margarine'),	0.014234875444839857
+('meat', 'other vegetables'),	0.0099644128113879
+('meat', 'rolls/buns'),	0.006914082358922217
+('meat', 'root vegetables'),	0.005083884087442806
+('meat', 'sausage'),	0.0052872394509405184
+('meat', 'soda'),	0.005490594814438231
+('meat', 'whole milk'),	0.0099644128113879
+('meat', 'yogurt'),	0.0052872394509405184
+('other vegetables', 'misc. beverages'),	0.005592272496187087
+('soda', 'misc. beverages'),	0.007320793085917641
+('misc. beverages', 'whole milk'),	0.007015760040671073
+('whole milk', 'mustard'),	0.005185561769191663
+('napkins', 'newspapers'),	0.0062023385866802234
+('napkins', 'other vegetables'),	0.01443823080833757
+('napkins', 'pastry'),	0.007015760040671073
+('napkins', 'pip fruit'),	0.006710726995424504
+('napkins', 'pork'),	0.005185561769191663
+('napkins', 'rolls/buns'),	0.011692933401118455
+('napkins', 'root vegetables'),	0.0099644128113879
+('napkins', 'sausage'),	0.006710726995424504
+('napkins', 'shopping bags'),	0.007219115404168785
+('napkins', 'soda'),	0.011997966446365024
+('napkins', 'tropical fruit'),	0.010066090493136757
+('napkins', 'whipped/sour cream'),	0.007219115404168785
+('napkins', 'whole milk'),	0.019725470259278087
+('napkins', 'yogurt'),	0.012302999491611592
+('other vegetables', 'newspapers'),	0.019318759532282664
+('pastry', 'newspapers'),	0.008439247585155059
+('newspapers', 'pip fruit'),	0.006710726995424504
+('newspapers', 'pork'),	0.0066090493136756485
+('newspapers', 'rolls/buns'),	0.019725470259278087
+('newspapers', 'root vegetables'),	0.011489578037620742
+('newspapers', 'sausage'),	0.008032536858159633
+('shopping bags', 'newspapers'),	0.006914082358922217
+('soda', 'newspapers'),	0.014641586171835282
+('newspapers', 'tropical fruit'),	0.01179461108286731
+('whipped/sour cream', 'newspapers'),	0.007219115404168785
+('newspapers', 'whole milk'),	0.027351296390442297
+('newspapers', 'yogurt'),	0.015353329944077275
+('oil', 'other vegetables'),	0.0099644128113879
+('oil', 'rolls/buns'),	0.005083884087442806
+('oil', 'root vegetables'),	0.007015760040671073
+('oil', 'whole milk'),	0.01128622267412303
+('oil', 'yogurt'),	0.0052872394509405184
+('other vegetables', 'onions'),	0.014234875444839857
+('rolls/buns', 'onions'),	0.00681240467717336
+('onions', 'root vegetables'),	0.00945602440264362
+('soda', 'onions'),	0.0052872394509405184
+('tropical fruit', 'onions'),	0.0056939501779359435
+('whipped/sour cream', 'onions'),	0.005083884087442806
+('whole milk', 'onions'),	0.012099644128113879
+('yogurt', 'onions'),	0.007219115404168785
+('other vegetables', 'pastry'),	0.02257244534824606
+('other vegetables', 'pickled vegetables'),	0.006405693950177936
+('other vegetables', 'pip fruit'),	0.026131164209456024
+('other vegetables', 'pork'),	0.021657346212506354
+('other vegetables', 'processed cheese'),	0.005490594814438231
+('other vegetables', 'rolls/buns'),	0.042602948652770714
+('other vegetables', 'root vegetables'),	0.047381799694966954
+('other vegetables', 'salty snack'),	0.010777834265378749
+('other vegetables', 'sausage'),	0.026944585663446874
+('other vegetables', 'semi-finished bread'),	0.005185561769191663
+('other vegetables', 'shopping bags'),	0.023182511438739197
+('other vegetables', 'sliced cheese'),	0.009049313675648195
+('other vegetables', 'soda'),	0.032740213523131674
+('other vegetables', 'soft cheese'),	0.0071174377224199285
+('other vegetables', 'specialty bar'),	0.005592272496187087
+('other vegetables', 'specialty chocolate'),	0.006100660904931368
+('other vegetables', 'sugar'),	0.010777834265378749
+('other vegetables', 'tropical fruit'),	0.035892221657346214
+('other vegetables', 'waffles'),	0.010066090493136757
+('other vegetables', 'whipped/sour cream'),	0.02887646161667514
+('other vegetables', 'white bread'),	0.013726487036095577
+('other vegetables', 'whole milk'),	0.07483477376715811
+('other vegetables', 'yogurt'),	0.04341637010676157
+('whole milk', 'pasta'),	0.006100660904931368
+('pastry', 'pip fruit'),	0.010676156583629894
+('pastry', 'pork'),	0.00630401626842908
+('pastry', 'rolls/buns'),	0.02094560244026436
+('pastry', 'root vegetables'),	0.010981189628876462
+('pastry', 'salty snack'),	0.005185561769191663
+('pastry', 'sausage'),	0.012506354855109304
+('pastry', 'shopping bags'),	0.011896288764616167
+('pastry', 'soda'),	0.021047280122013217
+('pastry', 'sugar'),	0.005185561769191663
+('pastry', 'tropical fruit'),	0.013218098627351297
+('pastry', 'waffles'),	0.007015760040671073
+('pastry', 'whipped/sour cream'),	0.0075241484494153535
+('pastry', 'white bread'),	0.005592272496187087
+('pastry', 'whole milk'),	0.033248601931875954
+('pastry', 'yogurt'),	0.017691916624300967
+('pickled vegetables', 'whole milk'),	0.0071174377224199285
+('pork', 'pip fruit'),	0.006100660904931368
+('rolls/buns', 'pip fruit'),	0.013929842399593289
+('pip fruit', 'root vegetables'),	0.015556685307574987
+('sausage', 'pip fruit'),	0.010777834265378749
+('shopping bags', 'pip fruit'),	0.009354346720894764
+('soda', 'pip fruit'),	0.013319776309100152
+('tropical fruit', 'pip fruit'),	0.02043721403152008
+('whipped/sour cream', 'pip fruit'),	0.009252669039145907
+('white bread', 'pip fruit'),	0.0066090493136756485
+('whole milk', 'pip fruit'),	0.030096593797661414
+('yogurt', 'pip fruit'),	0.017996949669547534
+('rolls/buns', 'pork'),	0.01128622267412303
+('pork', 'root vegetables'),	0.01362480935434672
+('pork', 'sausage'),	0.006507371631926792
+('shopping bags', 'pork'),	0.006405693950177936
+('soda', 'pork'),	0.011896288764616167
+('tropical fruit', 'pork'),	0.008540925266903915
+('whipped/sour cream', 'pork'),	0.008235892221657347
+('whole milk', 'pork'),	0.022165734621250637
+('yogurt', 'pork'),	0.009557702084392475
+('whole milk', 'pot plants'),	0.006914082358922217
+('processed cheese', 'soda'),	0.0052872394509405184
+('processed cheese', 'whole milk'),	0.007015760040671073
+('rolls/buns', 'root vegetables'),	0.024300965937976614
+('rolls/buns', 'sausage'),	0.030604982206405694
+('shopping bags', 'rolls/buns'),	0.019522114895780377
+('sliced cheese', 'rolls/buns'),	0.007625826131164209
+('soda', 'rolls/buns'),	0.03833248601931876
+('soft cheese', 'rolls/buns'),	0.005388917132689374
+('specialty bar', 'rolls/buns'),	0.005592272496187087
+('rolls/buns', 'specialty chocolate'),	0.005592272496187087
+('sugar', 'rolls/buns'),	0.007015760040671073
+('tropical fruit', 'rolls/buns'),	0.024605998983223184
+('waffles', 'rolls/buns'),	0.009150991357397052
+('whipped/sour cream', 'rolls/buns'),	0.014641586171835282
+('white bread', 'rolls/buns'),	0.006507371631926792
+('whole milk', 'rolls/buns'),	0.05663446873411286
+('yogurt', 'rolls/buns'),	0.03436705643111337
+('sausage', 'root vegetables'),	0.01494661921708185
+('shopping bags', 'root vegetables'),	0.012811387900355872
+('sliced cheese', 'root vegetables'),	0.005592272496187087
+('soda', 'root vegetables'),	0.01860701576004067
+('sugar', 'root vegetables'),	0.006405693950177936
+('tropical fruit', 'root vegetables'),	0.021047280122013217
+('waffles', 'root vegetables'),	0.0066090493136756485
+('whipped/sour cream', 'root vegetables'),	0.01708185053380783
+('white bread', 'root vegetables'),	0.007930859176410779
+('whole milk', 'root vegetables'),	0.048906964921199794
+('yogurt', 'root vegetables'),	0.025826131164209457
+('salty snack', 'sausage'),	0.0052872394509405184
+('shopping bags', 'salty snack'),	0.005998983223182512
+('soda', 'salty snack'),	0.009354346720894764
+('salty snack', 'tropical fruit'),	0.005592272496187087
+('whipped/sour cream', 'salty snack'),	0.005185561769191663
+('salty snack', 'whole milk'),	0.011184544992374174
+('salty snack', 'yogurt'),	0.0062023385866802234
+('shopping bags', 'sausage'),	0.015658362989323844
+('sliced cheese', 'sausage'),	0.007015760040671073
+('soda', 'sausage'),	0.024300965937976614
+('tropical fruit', 'sausage'),	0.013929842399593289
+('whipped/sour cream', 'sausage'),	0.009049313675648195
+('white bread', 'sausage'),	0.007219115404168785
+('whole milk', 'sausage'),	0.0298932384341637
+('yogurt', 'sausage'),	0.019623792577529234
+('whole milk', 'semi-finished bread'),	0.0071174377224199285
+('soda', 'shopping bags'),	0.024605998983223184
+('shopping bags', 'tropical fruit'),	0.013523131672597865
+('shopping bags', 'waffles'),	0.005490594814438231
+('whipped/sour cream', 'shopping bags'),	0.007930859176410779
+('white bread', 'shopping bags'),	0.007422470767666497
+('shopping bags', 'whole milk'),	0.024504321301474327
+('shopping bags', 'yogurt'),	0.015251652262328419
+('soda', 'sliced cheese'),	0.005083884087442806
+('sliced cheese', 'tropical fruit'),	0.0052872394509405184
+('sliced cheese', 'whole milk'),	0.010777834265378749
+('sliced cheese', 'yogurt'),	0.008032536858159633
+('soda', 'specialty bar'),	0.007219115404168785
+('soda', 'specialty chocolate'),	0.00630401626842908
+('soda', 'sugar'),	0.007320793085917641
+('soda', 'tropical fruit'),	0.020843924758515507
+('soda', 'waffles'),	0.009557702084392475
+('soda', 'whipped/sour cream'),	0.011591255719369599
+('soda', 'white bread'),	0.010269445856634469
+('soda', 'whole milk'),	0.040061006609049314
+('soda', 'yogurt'),	0.027351296390442297
+('soft cheese', 'whole milk'),	0.0075241484494153535
+('soft cheese', 'yogurt'),	0.005998983223182512
+('specialty bar', 'whole milk'),	0.006507371631926792
+('whole milk', 'specialty chocolate'),	0.008032536858159633
+('whole milk', 'sugar'),	0.015048296898830707
+('yogurt', 'sugar'),	0.006914082358922217
+('tropical fruit', 'waffles'),	0.006100660904931368
+('whipped/sour cream', 'tropical fruit'),	0.013828164717844434
+('white bread', 'tropical fruit'),	0.008744280630401627
+('tropical fruit', 'whole milk'),	0.04229791560752415
+('tropical fruit', 'yogurt'),	0.029283172343670564
+('whipped/sour cream', 'waffles'),	0.005083884087442806
+('whole milk', 'waffles'),	0.012709710218607015
+('yogurt', 'waffles'),	0.0075241484494153535
+('whipped/sour cream', 'white bread'),	0.005490594814438231
+('whipped/sour cream', 'whole milk'),	0.032231825114387394
+('whipped/sour cream', 'yogurt'),	0.02074224707676665
+('white bread', 'whole milk'),	0.01708185053380783
+('white bread', 'yogurt'),	0.009049313675648195
+('yogurt', 'whole milk'),	0.05602440264361973
+('beef', 'rolls/buns', 'other vegetables'),	0.005795627859684799
+('beef', 'root vegetables', 'other vegetables'),	0.007930859176410779
+('beef', 'whole milk', 'other vegetables'),	0.009252669039145907
+('beef', 'yogurt', 'other vegetables'),	0.005185561769191663
+('beef', 'whole milk', 'rolls/buns'),	0.00681240467717336
+('beef', 'whole milk', 'root vegetables'),	0.008032536858159633
+('beef', 'yogurt', 'whole milk'),	0.006100660904931368
+('soda', 'bottled water', 'bottled beer'),	0.005083884087442806
+('whole milk', 'bottled water', 'bottled beer'),	0.006100660904931368
+('other vegetables', 'whole milk', 'bottled beer'),	0.007625826131164209
+('whole milk', 'rolls/buns', 'bottled beer'),	0.005388917132689374
+('yogurt', 'whole milk', 'bottled beer'),	0.005185561769191663
+('whole milk', 'bottled water', 'butter'),	0.005388917132689374
+('other vegetables', 'bottled water', 'citrus fruit'),	0.005083884087442806
+('whole milk', 'bottled water', 'citrus fruit'),	0.005897305541433655
+('fruit/vegetable juice', 'bottled water', 'soda'),	0.005185561769191663
+('whole milk', 'fruit/vegetable juice', 'bottled water'),	0.005795627859684799
+('other vegetables', 'rolls/buns', 'bottled water'),	0.007320793085917641
+('other vegetables', 'bottled water', 'root vegetables'),	0.007015760040671073
+('other vegetables', 'bottled water', 'sausage'),	0.005083884087442806
+('other vegetables', 'soda', 'bottled water'),	0.0056939501779359435
+('other vegetables', 'tropical fruit', 'bottled water'),	0.0062023385866802234
+('other vegetables', 'whole milk', 'bottled water'),	0.010777834265378749
+('other vegetables', 'yogurt', 'bottled water'),	0.00813421453990849
+('rolls/buns', 'bottled water', 'soda'),	0.00681240467717336
+('rolls/buns', 'tropical fruit', 'bottled water'),	0.005388917132689374
+('whole milk', 'rolls/buns', 'bottled water'),	0.008744280630401627
+('rolls/buns', 'yogurt', 'bottled water'),	0.0071174377224199285
+('whole milk', 'bottled water', 'root vegetables'),	0.007320793085917641
+('soda', 'tropical fruit', 'bottled water'),	0.005185561769191663
+('whole milk', 'soda', 'bottled water'),	0.0075241484494153535
+('soda', 'yogurt', 'bottled water'),	0.007422470767666497
+('whole milk', 'tropical fruit', 'bottled water'),	0.008032536858159633
+('yogurt', 'tropical fruit', 'bottled water'),	0.0071174377224199285
+('whole milk', 'yogurt', 'bottled water'),	0.009659379766141332
+('other vegetables', 'whole milk', 'brown bread'),	0.009354346720894764
+('other vegetables', 'yogurt', 'brown bread'),	0.005185561769191663
+('whole milk', 'rolls/buns', 'brown bread'),	0.0052872394509405184
+('whole milk', 'brown bread', 'root vegetables'),	0.0056939501779359435
+('whole milk', 'soda', 'brown bread'),	0.005083884087442806
+('whole milk', 'tropical fruit', 'brown bread'),	0.0056939501779359435
+('whole milk', 'yogurt', 'brown bread'),	0.0071174377224199285
+('whole milk', 'butter', 'citrus fruit'),	0.005083884087442806
+('whole milk', 'butter', 'domestic eggs'),	0.005998983223182512
+('other vegetables', 'rolls/buns', 'butter'),	0.0056939501779359435
+('other vegetables', 'butter', 'root vegetables'),	0.0066090493136756485
+('other vegetables', 'tropical fruit', 'butter'),	0.005490594814438231
+('other vegetables', 'whipped/sour cream', 'butter'),	0.005795627859684799
+('other vegetables', 'whole milk', 'butter'),	0.011489578037620742
+('other vegetables', 'yogurt', 'butter'),	0.006405693950177936
+('whole milk', 'rolls/buns', 'butter'),	0.0066090493136756485
+('whole milk', 'butter', 'root vegetables'),	0.008235892221657347
+('whole milk', 'tropical fruit', 'butter'),	0.0062023385866802234
+('whole milk', 'whipped/sour cream', 'butter'),	0.006710726995424504
+('whole milk', 'yogurt', 'butter'),	0.009354346720894764
+('other vegetables', 'chicken', 'root vegetables'),	0.0056939501779359435
+('other vegetables', 'chicken', 'whole milk'),	0.008439247585155059
+('whole milk', 'chicken', 'rolls/buns'),	0.0052872394509405184
+('chicken', 'whole milk', 'root vegetables'),	0.005998983223182512
+('other vegetables', 'chocolate', 'whole milk'),	0.005490594814438231
+('soda', 'chocolate', 'whole milk'),	0.005083884087442806
+('whole milk', 'domestic eggs', 'citrus fruit'),	0.0056939501779359435
+('other vegetables', 'pip fruit', 'citrus fruit'),	0.005897305541433655
+('other vegetables', 'rolls/buns', 'citrus fruit'),	0.005998983223182512
+('other vegetables', 'root vegetables', 'citrus fruit'),	0.010371123538383325
+('other vegetables', 'tropical fruit', 'citrus fruit'),	0.009049313675648195
+('other vegetables', 'whipped/sour cream', 'citrus fruit'),	0.0056939501779359435
+('other vegetables', 'whole milk', 'citrus fruit'),	0.013014743263853584
+('other vegetables', 'yogurt', 'citrus fruit'),	0.007625826131164209
+('tropical fruit', 'pip fruit', 'citrus fruit'),	0.005592272496187087
+('whole milk', 'pip fruit', 'citrus fruit'),	0.005185561769191663
+('whole milk', 'rolls/buns', 'citrus fruit'),	0.007219115404168785
+('yogurt', 'rolls/buns', 'citrus fruit'),	0.005795627859684799
+('tropical fruit', 'root vegetables', 'citrus fruit'),	0.0056939501779359435
+('whole milk', 'root vegetables', 'citrus fruit'),	0.009150991357397052
+('tropical fruit', 'whole milk', 'citrus fruit'),	0.009049313675648195
+('tropical fruit', 'yogurt', 'citrus fruit'),	0.00630401626842908
+('whipped/sour cream', 'whole milk', 'citrus fruit'),	0.00630401626842908
+('yogurt', 'whole milk', 'citrus fruit'),	0.010269445856634469
+('other vegetables', 'whole milk', 'coffee'),	0.006405693950177936
+('yogurt', 'whole milk', 'coffee'),	0.005083884087442806
+('other vegetables', 'cream cheese ', 'whole milk'),	0.006710726995424504
+('other vegetables', 'cream cheese ', 'yogurt'),	0.0052872394509405184
+('yogurt', 'cream cheese ', 'whole milk'),	0.0066090493136756485
+('other vegetables', 'root vegetables', 'curd'),	0.005490594814438231
+('other vegetables', 'tropical fruit', 'curd'),	0.0052872394509405184
+('other vegetables', 'whole milk', 'curd'),	0.009862735129639044
+('other vegetables', 'yogurt', 'curd'),	0.006100660904931368
+('whole milk', 'rolls/buns', 'curd'),	0.005897305541433655
+('whole milk', 'root vegetables', 'curd'),	0.0062023385866802234
+('tropical fruit', 'whole milk', 'curd'),	0.006507371631926792
+('tropical fruit', 'yogurt', 'curd'),	0.0052872394509405184
+('whipped/sour cream', 'whole milk', 'curd'),	0.005897305541433655
+('yogurt', 'whole milk', 'curd'),	0.010066090493136757
+('whole milk', 'domestic eggs', 'margarine'),	0.005185561769191663
+('other vegetables', 'rolls/buns', 'domestic eggs'),	0.005897305541433655
+('other vegetables', 'domestic eggs', 'root vegetables'),	0.007320793085917641
+('other vegetables', 'soda', 'domestic eggs'),	0.005083884087442806
+('other vegetables', 'whipped/sour cream', 'domestic eggs'),	0.005083884087442806
+('other vegetables', 'whole milk', 'domestic eggs'),	0.012302999491611592
+('other vegetables', 'yogurt', 'domestic eggs'),	0.005795627859684799
+('pip fruit', 'whole milk', 'domestic eggs'),	0.005388917132689374
+('whole milk', 'rolls/buns', 'domestic eggs'),	0.0066090493136756485
+('whole milk', 'domestic eggs', 'root vegetables'),	0.008540925266903915
+('soda', 'whole milk', 'domestic eggs'),	0.005185561769191663
+('tropical fruit', 'whole milk', 'domestic eggs'),	0.006914082358922217
+('whipped/sour cream', 'whole milk', 'domestic eggs'),	0.0056939501779359435
+('yogurt', 'whole milk', 'domestic eggs'),	0.007727503812913066
+('other vegetables', 'frankfurter', 'rolls/buns'),	0.005592272496187087
+('other vegetables', 'frankfurter', 'whole milk'),	0.007625826131164209
+('whole milk', 'frankfurter', 'rolls/buns'),	0.005998983223182512
+('frankfurter', 'whole milk', 'root vegetables'),	0.005083884087442806
+('frankfurter', 'tropical fruit', 'whole milk'),	0.005185561769191663
+('yogurt', 'frankfurter', 'whole milk'),	0.0062023385866802234
+('other vegetables', 'frozen vegetables', 'root vegetables'),	0.006100660904931368
+('other vegetables', 'whole milk', 'frozen vegetables'),	0.009659379766141332
+('other vegetables', 'yogurt', 'frozen vegetables'),	0.0052872394509405184
+('whole milk', 'rolls/buns', 'frozen vegetables'),	0.005083884087442806
+('whole milk', 'frozen vegetables', 'root vegetables'),	0.0062023385866802234
+('yogurt', 'whole milk', 'frozen vegetables'),	0.006100660904931368
+('other vegetables', 'fruit/vegetable juice', 'root vegetables'),	0.0066090493136756485
+('other vegetables', 'fruit/vegetable juice', 'tropical fruit'),	0.0066090493136756485
+('other vegetables', 'fruit/vegetable juice', 'whole milk'),	0.01047280122013218
+('other vegetables', 'fruit/vegetable juice', 'yogurt'),	0.008235892221657347
+('whole milk', 'fruit/vegetable juice', 'rolls/buns'),	0.005592272496187087
+('fruit/vegetable juice', 'whole milk', 'root vegetables'),	0.006507371631926792
+('whole milk', 'fruit/vegetable juice', 'soda'),	0.006100660904931368
+('fruit/vegetable juice', 'yogurt', 'soda'),	0.005083884087442806
+('fruit/vegetable juice', 'tropical fruit', 'whole milk'),	0.005998983223182512
+('fruit/vegetable juice', 'yogurt', 'whole milk'),	0.00945602440264362
+('hamburger meat', 'whole milk', 'other vegetables'),	0.00630401626842908
+('other vegetables', 'whole milk', 'hygiene articles'),	0.005185561769191663
+('other vegetables', 'whole milk', 'long life bakery product'),	0.0056939501779359435
+('other vegetables', 'rolls/buns', 'margarine'),	0.005185561769191663
+('other vegetables', 'margarine', 'root vegetables'),	0.005897305541433655
+('other vegetables', 'whole milk', 'margarine'),	0.009252669039145907
+('other vegetables', 'yogurt', 'margarine'),	0.0056939501779359435
+('whole milk', 'rolls/buns', 'margarine'),	0.007930859176410779
+('yogurt', 'whole milk', 'margarine'),	0.007015760040671073
+('napkins', 'whole milk', 'other vegetables'),	0.00681240467717336
+('napkins', 'whole milk', 'rolls/buns'),	0.0052872394509405184
+('napkins', 'yogurt', 'whole milk'),	0.006100660904931368
+('other vegetables', 'newspapers', 'rolls/buns'),	0.005490594814438231
+('other vegetables', 'newspapers', 'root vegetables'),	0.005998983223182512
+('other vegetables', 'newspapers', 'whole milk'),	0.008337569903406202
+('other vegetables', 'newspapers', 'yogurt'),	0.005592272496187087
+('whole milk', 'newspapers', 'rolls/buns'),	0.007625826131164209
+('yogurt', 'newspapers', 'rolls/buns'),	0.005083884087442806
+('newspapers', 'whole milk', 'root vegetables'),	0.005795627859684799
+('whole milk', 'newspapers', 'tropical fruit'),	0.005083884087442806
+('yogurt', 'newspapers', 'whole milk'),	0.0066090493136756485
+('oil', 'whole milk', 'other vegetables'),	0.005083884087442806
+('other vegetables', 'onions', 'root vegetables'),	0.0056939501779359435
+('other vegetables', 'whole milk', 'onions'),	0.0066090493136756485
+('other vegetables', 'pastry', 'rolls/buns'),	0.006100660904931368
+('other vegetables', 'pastry', 'root vegetables'),	0.005897305541433655
+('other vegetables', 'soda', 'pastry'),	0.005490594814438231
+('other vegetables', 'pastry', 'tropical fruit'),	0.005083884087442806
+('other vegetables', 'pastry', 'whole milk'),	0.010574478901881037
+('other vegetables', 'pastry', 'yogurt'),	0.0066090493136756485
+('other vegetables', 'rolls/buns', 'pip fruit'),	0.005083884087442806
+('other vegetables', 'pip fruit', 'root vegetables'),	0.00813421453990849
+('other vegetables', 'tropical fruit', 'pip fruit'),	0.00945602440264362
+('other vegetables', 'whipped/sour cream', 'pip fruit'),	0.005592272496187087
+('other vegetables', 'whole milk', 'pip fruit'),	0.013523131672597865
+('other vegetables', 'yogurt', 'pip fruit'),	0.00813421453990849
+('other vegetables', 'rolls/buns', 'pork'),	0.005592272496187087
+('other vegetables', 'pork', 'root vegetables'),	0.007015760040671073
+('other vegetables', 'whole milk', 'pork'),	0.010167768174885612
+('other vegetables', 'rolls/buns', 'root vegetables'),	0.012201321809862735
+('other vegetables', 'rolls/buns', 'sausage'),	0.008845958312150484
+('other vegetables', 'shopping bags', 'rolls/buns'),	0.0052872394509405184
+('other vegetables', 'soda', 'rolls/buns'),	0.009862735129639044
+('other vegetables', 'tropical fruit', 'rolls/buns'),	0.007829181494661922
+('other vegetables', 'whipped/sour cream', 'rolls/buns'),	0.006710726995424504
+('other vegetables', 'whole milk', 'rolls/buns'),	0.017895271987798677
+('other vegetables', 'yogurt', 'rolls/buns'),	0.011489578037620742
+('other vegetables', 'sausage', 'root vegetables'),	0.00681240467717336
+('other vegetables', 'shopping bags', 'root vegetables'),	0.0066090493136756485
+('other vegetables', 'soda', 'root vegetables'),	0.008235892221657347
+('other vegetables', 'tropical fruit', 'root vegetables'),	0.012302999491611592
+('other vegetables', 'whipped/sour cream', 'root vegetables'),	0.008540925266903915
+('other vegetables', 'whole milk', 'root vegetables'),	0.023182511438739197
+('other vegetables', 'yogurt', 'root vegetables'),	0.012913065582104729
+('other vegetables', 'shopping bags', 'sausage'),	0.005388917132689374
+('other vegetables', 'soda', 'sausage'),	0.007219115404168785
+('other vegetables', 'tropical fruit', 'sausage'),	0.005998983223182512
+('other vegetables', 'whole milk', 'sausage'),	0.010167768174885612
+('other vegetables', 'yogurt', 'sausage'),	0.00813421453990849
+('other vegetables', 'soda', 'shopping bags'),	0.005388917132689374
+('other vegetables', 'shopping bags', 'whole milk'),	0.007625826131164209
+('other vegetables', 'shopping bags', 'yogurt'),	0.005388917132689374
+('other vegetables', 'soda', 'tropical fruit'),	0.007219115404168785
+('other vegetables', 'soda', 'whole milk'),	0.013929842399593289
+('other vegetables', 'soda', 'yogurt'),	0.008337569903406202
+('other vegetables', 'whole milk', 'sugar'),	0.00630401626842908
+('other vegetables', 'whipped/sour cream', 'tropical fruit'),	0.007829181494661922
+('other vegetables', 'tropical fruit', 'whole milk'),	0.01708185053380783
+('other vegetables', 'tropical fruit', 'yogurt'),	0.012302999491611592
+('other vegetables', 'whipped/sour cream', 'whole milk'),	0.014641586171835282
+('other vegetables', 'whipped/sour cream', 'yogurt'),	0.010167768174885612
+('other vegetables', 'white bread', 'whole milk'),	0.005897305541433655
+('other vegetables', 'yogurt', 'whole milk'),	0.02226741230299949
+('pastry', 'whole milk', 'pip fruit'),	0.005083884087442806
+('pastry', 'soda', 'rolls/buns'),	0.005388917132689374
+('pastry', 'whole milk', 'rolls/buns'),	0.008540925266903915
+('pastry', 'yogurt', 'rolls/buns'),	0.005795627859684799
+('pastry', 'whole milk', 'root vegetables'),	0.0056939501779359435
+('pastry', 'whole milk', 'sausage'),	0.0056939501779359435
+('pastry', 'soda', 'whole milk'),	0.008235892221657347
+('pastry', 'tropical fruit', 'whole milk'),	0.006710726995424504
+('pastry', 'yogurt', 'whole milk'),	0.009150991357397052
+('whole milk', 'rolls/buns', 'pip fruit'),	0.0062023385866802234
+('tropical fruit', 'pip fruit', 'root vegetables'),	0.0052872394509405184
+('whole milk', 'pip fruit', 'root vegetables'),	0.008947635993899338
+('yogurt', 'pip fruit', 'root vegetables'),	0.0052872394509405184
+('sausage', 'whole milk', 'pip fruit'),	0.005592272496187087
+('tropical fruit', 'whole milk', 'pip fruit'),	0.008439247585155059
+('tropical fruit', 'yogurt', 'pip fruit'),	0.006405693950177936
+('whipped/sour cream', 'whole milk', 'pip fruit'),	0.005998983223182512
+('yogurt', 'whole milk', 'pip fruit'),	0.009557702084392475
+('whole milk', 'rolls/buns', 'pork'),	0.0062023385866802234
+('whole milk', 'pork', 'root vegetables'),	0.00681240467717336
+('tropical fruit', 'rolls/buns', 'root vegetables'),	0.005897305541433655
+('whole milk', 'rolls/buns', 'root vegetables'),	0.012709710218607015
+('yogurt', 'rolls/buns', 'root vegetables'),	0.007219115404168785
+('shopping bags', 'rolls/buns', 'sausage'),	0.005998983223182512
+('soda', 'rolls/buns', 'sausage'),	0.009659379766141332
+('whole milk', 'rolls/buns', 'sausage'),	0.009354346720894764
+('yogurt', 'rolls/buns', 'sausage'),	0.005998983223182512
+('soda', 'shopping bags', 'rolls/buns'),	0.00630401626842908
+('whole milk', 'shopping bags', 'rolls/buns'),	0.0052872394509405184
+('soda', 'tropical fruit', 'rolls/buns'),	0.005388917132689374
+('whole milk', 'soda', 'rolls/buns'),	0.008845958312150484
+('soda', 'yogurt', 'rolls/buns'),	0.00864260294865277
+('whole milk', 'tropical fruit', 'rolls/buns'),	0.010981189628876462
+('yogurt', 'tropical fruit', 'rolls/buns'),	0.008744280630401627
+('whole milk', 'whipped/sour cream', 'rolls/buns'),	0.007829181494661922
+('whole milk', 'yogurt', 'rolls/buns'),	0.015556685307574987
+('sausage', 'whole milk', 'root vegetables'),	0.007727503812913066
+('sausage', 'yogurt', 'root vegetables'),	0.005185561769191663
+('shopping bags', 'whole milk', 'root vegetables'),	0.0052872394509405184
+('soda', 'whole milk', 'root vegetables'),	0.00813421453990849
+('tropical fruit', 'whole milk', 'root vegetables'),	0.011997966446365024
+('tropical fruit', 'yogurt', 'root vegetables'),	0.00813421453990849
+('whipped/sour cream', 'whole milk', 'root vegetables'),	0.00945602440264362
+('whipped/sour cream', 'yogurt', 'root vegetables'),	0.006405693950177936
+('yogurt', 'whole milk', 'root vegetables'),	0.014539908490086425
+('soda', 'shopping bags', 'sausage'),	0.0056939501779359435
+('soda', 'whole milk', 'sausage'),	0.006710726995424504
+('soda', 'yogurt', 'sausage'),	0.005592272496187087
+('tropical fruit', 'whole milk', 'sausage'),	0.007219115404168785
+('whipped/sour cream', 'whole milk', 'sausage'),	0.005083884087442806
+('yogurt', 'whole milk', 'sausage'),	0.008744280630401627
+('soda', 'shopping bags', 'whole milk'),	0.00681240467717336
+('yogurt', 'shopping bags', 'whole milk'),	0.0052872394509405184
+('soda', 'tropical fruit', 'whole milk'),	0.007829181494661922
+('soda', 'tropical fruit', 'yogurt'),	0.0066090493136756485
+('soda', 'whipped/sour cream', 'whole milk'),	0.005490594814438231
+('soda', 'yogurt', 'whole milk'),	0.01047280122013218
+('whipped/sour cream', 'tropical fruit', 'whole milk'),	0.007930859176410779
+('whipped/sour cream', 'tropical fruit', 'yogurt'),	0.0062023385866802234
+('yogurt', 'tropical fruit', 'whole milk'),	0.015149974580579562
+('yogurt', 'whipped/sour cream', 'whole milk'),	0.010879511947127605
