@@ -1,0 +1,56 @@
+
+\contentsline {chapter}{\numberline {1}课程任务概述}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}实验软件和数据}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}实验任务}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Mysql for Json实验}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}JSON基本查询}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}查询位于 Tampa 的商户信息}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}查询商户信息的键和数量}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}查询商户信息的内容和JSON类型}{4}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}查询拥有电视且星期天不营业的商户信息}{4}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}使用EXPLAIN查看执行计划和性能对比}{5}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}JSON增删改}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}更新商户信息}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}插入商户信息并删除指定键值对}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}JSON聚合}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}聚合查询城市出现次数}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}查询所有朋友建议}{10}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}JSON实用函数的使用}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}查询商铺营业时间}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}查询user相关参数及求和}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}合并JSON串}{12}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}查询被评论数前三的商户一周营业时段}{13}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}实验总结}{15}{section.2.5}%
+\contentsline {chapter}{\numberline {3}MongoDB实验}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}条件查询与执行计划}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}查询user集合中特定funny值的用户}{16}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}查询满足条件的业务数据}{16}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}查询类目数为6的商户信息}{16}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}使用 explain 查看查询执行计划和性能}{17}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}聚合与索引}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}统计各个星级的商店个数}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}创建子集Subview}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}查询距离商家100米以内的商家信息}{20}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}统计从2017年开始用户发出的评价次数并按次数降序排序}{21}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}MapReduce的使用}{22}{section.3.3}%
+\contentsline {section}{\numberline {3.4}实验总结}{23}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Neo4j实验}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}查询评价过指定商家的用户的名字和粉丝数}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}查询指定用户评论为5星的商家名称和地址}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}查询指定商家包含的种类并以列表形式返回}{25}{section.4.3}%
+\contentsline {section}{\numberline {4.4}查询Allison的朋友的朋友数量}{25}{section.4.4}%
+\contentsline {section}{\numberline {4.5}查询商家名重复次数前10的商家名及其次数}{26}{section.4.5}%
+\contentsline {section}{\numberline {4.6}统计每个商家被多少个不同用户评论过，按照此数量降序排列}{26}{section.4.6}%
+\contentsline {section}{\numberline {4.7}查询与指定用户没有朋友关系，但与其评价过相同商家的用户}{27}{section.4.7}%
+\contentsline {section}{\numberline {4.8}查询与指定用户没有朋友关系，但与其评价过相同商家的用户}{28}{section.4.8}%
+\contentsline {section}{\numberline {4.9}实验总结}{29}{section.4.9}%
+\contentsline {chapter}{\numberline {5}多数据库交互应用实验}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Neo4j查找}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}数据导入MongoDB}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}实验结果}{31}{section.5.3}%
+\contentsline {chapter}{\numberline {6}不同类型数据库MVCC多版本并发控制对比实验}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Mysql-MVCC并发控制}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}MongoDB-MVCC并发控制}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.3}对比分析}{37}{section.6.3}%
+\contentsline {chapter}{\numberline {7}课程总结}{38}{chapter.7}%
+\contentsfinish 

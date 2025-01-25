@@ -1,0 +1,1 @@
+MATCH(:ReviewNode {reviewid:'rEITo90tpyKmEfNDp3Ou3A'})-[:Reviewed]->(business:BusinessNode) RETURN business

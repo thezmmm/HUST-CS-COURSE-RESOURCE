@@ -1,0 +1,1 @@
+MATCH (business:BusinessNode {city: 'Ambridge'}) RETURN business

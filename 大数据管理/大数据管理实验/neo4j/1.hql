@@ -1,0 +1,1 @@
+MATCH (n:CityNode) RETURN n LIMIT 10

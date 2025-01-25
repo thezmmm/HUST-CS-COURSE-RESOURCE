@@ -1,0 +1,56 @@
+db.business.find({business_id: "5JucpCfHZltJh5r1JabjDg"}).explain("executionStats")
+{
+	"queryPlanner" : {
+		"plannerVersion" : 1,
+		"namespace" : "yelp.business",
+		"indexFilterSet" : false,
+		"parsedQuery" : {
+			"business_id" : {
+				"$eq" : "5JucpCfHZltJh5r1JabjDg"
+			}
+		},
+		"winningPlan" : {
+			"stage" : "COLLSCAN",
+			"filter" : {
+				"business_id" : {
+					"$eq" : "5JucpCfHZltJh5r1JabjDg"
+				}
+			},
+			"direction" : "forward"
+		},
+		"rejectedPlans" : [ ]
+	},
+	"executionStats" : {
+		"executionSuccess" : true,
+		"nReturned" : 1,
+		"executionTimeMillis" : 258,
+		"totalKeysExamined" : 0,
+		"totalDocsExamined" : 192609,
+		"executionStages" : {
+			"stage" : "COLLSCAN",
+			"filter" : {
+				"business_id" : {
+					"$eq" : "5JucpCfHZltJh5r1JabjDg"
+				}
+			},
+			"nReturned" : 1,
+			"executionTimeMillisEstimate" : 33,
+			"works" : 192611,
+			"advanced" : 1,
+			"needTime" : 192609,
+			"needYield" : 0,
+			"saveState" : 192,
+			"restoreState" : 192,
+			"isEOF" : 1,
+			"direction" : "forward",
+			"docsExamined" : 192609
+		}
+	},
+	"serverInfo" : {
+		"host" : "big-data-management",
+		"port" : 27017,
+		"version" : "4.4.25",
+		"gitVersion" : "3e18c4c56048ddf22a6872edc111b542521ad1d5"
+	},
+	"ok" : 1
+}
