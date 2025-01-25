@@ -1,0 +1,5 @@
+基于JAVA实现的socket编程
+
+在IDEA中打开此文件夹
+
+Client.java为客户端程序，MultiThreadsServer.java为服务端程序

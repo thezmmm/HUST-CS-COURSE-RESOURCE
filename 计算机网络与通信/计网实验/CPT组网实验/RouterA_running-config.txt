@@ -1,0 +1,78 @@
+!
+version 12.4
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ ip access-group 101 in
+ ip access-group 101 out
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 192.168.5.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ ip address 192.168.6.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router ospf 1
+ log-adjacency-changes
+ network 192.168.1.0 0.0.0.255 area 0
+ network 192.168.5.0 0.0.0.255 area 0
+ network 192.168.6.0 0.0.0.255 area 0
+!
+router rip
+!
+ip classless
+!
+!
+access-list 101 deny ip 192.168.1.0 0.0.0.255 192.168.0.0 0.0.255.255
+access-list 101 deny ip 192.168.0.0 0.0.255.255 192.168.1.0 0.0.0.255
+access-list 101 deny ip 192.168.0.0 0.0.255.255 host 192.168.1.1
+access-list 101 permit ip any any
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+

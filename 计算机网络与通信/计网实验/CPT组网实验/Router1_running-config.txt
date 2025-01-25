@@ -1,0 +1,100 @@
+!
+version 12.2
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.1.2 255.255.255.0
+ ip access-group 101 in
+ ip access-group 101 out
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ ip address 211.69.7.1 255.255.255.128
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0
+ no ip address
+ ip access-group 107 in
+ ip access-group 107 out
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0.1
+ encapsulation dot1Q 1 native
+ ip address 211.69.7.129 255.255.255.224
+ ip access-group 1 in
+ ip access-group 1 out
+!
+interface FastEthernet2/0.2
+ encapsulation dot1Q 2
+ ip address 211.69.7.161 255.255.255.224
+ ip access-group 1 in
+ ip access-group 1 out
+!
+interface FastEthernet2/0.3
+ encapsulation dot1Q 3
+ ip address 211.69.7.193 255.255.255.224
+ ip access-group 1 in
+ ip access-group 1 out
+!
+interface FastEthernet2/0.4
+ encapsulation dot1Q 4
+ ip address 211.69.7.225 255.255.255.224
+ ip access-group 1 in
+ ip access-group 1 out
+!
+router rip
+ network 192.168.1.0
+ network 211.69.7.0
+!
+ip classless
+ip route 0.0.0.0 0.0.0.0 192.168.1.1 
+!
+!
+access-list 102 deny ip 211.69.4.0 0.0.0.255 211.69.7.128 0.0.0.127
+access-list 102 deny ip 211.69.5.0 0.0.0.255 211.69.7.128 0.0.0.127
+access-list 102 deny ip 211.69.6.0 0.0.0.255 211.69.7.128 0.0.0.127
+access-list 102 permit ip any any
+access-list 1 deny 211.69.6.0 0.0.0.255
+access-list 1 deny 211.69.5.0 0.0.0.255
+access-list 1 deny 211.69.4.0 0.0.0.255
+access-list 1 permit any
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+
