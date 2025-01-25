@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/BigDataProcessing/scc/src/main/scala/GraphSCC.scala:2:32: object rdd is not a member of package org.apache.spark.graphx[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.graphx.rdd.RDD[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/BigDataProcessing/scc/src/main/scala/GraphSCC.scala:11:19: not found: type RDD[0m
+[0m[[0m[31merror[0m] [0m[0m    val vertices: RDD[(VertexId, String)] = sc.textFile("input/test-vertices.txt")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/BigDataProcessing/scc/src/main/scala/GraphSCC.scala:16:16: not found: type RDD[0m
+[0m[[0m[31merror[0m] [0m[0m    val edges: RDD[Edge[Int]] = sc.textFile("input/test-edges.txt")[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

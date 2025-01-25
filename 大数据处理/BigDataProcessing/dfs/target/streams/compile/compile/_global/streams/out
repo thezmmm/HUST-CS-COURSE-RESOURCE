@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/BigDataProcessing/dfs/src/main/scala/GraphDFS.scala:35:60: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.graphx.VertexId[0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  Long[0m
+[0m[[0m[31merror[0m] [0m[0m  val paths = graph.vertices.mapValues(v => List[VertexId](v))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/BigDataProcessing/dfs/src/main/scala/GraphDFS.scala:42:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.spark.graphx.VertexRDD[List[org.apache.spark.graphx.VertexId]][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  org.apache.spark.graphx.VertexRDD[List[Long]][0m
+[0m[[0m[31merror[0m] [0m[0m required: List[org.apache.spark.graphx.VertexId][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[Long][0m
+[0m[[0m[31merror[0m] [0m[0m        dfsRecursive(id, id :: path)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
