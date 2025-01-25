@@ -1,6 +1,4 @@
-<div align = center>
-<img src="./img/hust.png" width="" height="180"/>
-</div>
+![HUST logo](./img/hust.png)
 
 
 # BackGround
