@@ -1,0 +1,29 @@
+CREATE TABLE S
+(SNO CHAR(2)PRIMARY KEY,
+SNAME CHAR(6),
+STATUS SMALLINT,
+CITY CHAR(4)
+);
+
+CREATE TABLE P
+(PNO CHAR(2)PRIMARY KEY,
+PNAME CHAR(10),
+COLOR CHAR(2),
+WEIGHT SMALLINT
+);
+
+CREATE TABLE J
+(JNO CHAR(2)PRIMARY KEY,
+JNAME CHAR(10),
+CITY  CHAR(4)
+);
+
+CREATE TABLE SPJ(
+	SNO char(9),
+	PNO char(9),
+	JNO char(9),
+	QTY SMALLINT,
+	foreign key (SNO) references S(SNO),
+	foreign key (PNO) references P(PNO),
+	foreign key (JNO) references J(JNO)
+);
