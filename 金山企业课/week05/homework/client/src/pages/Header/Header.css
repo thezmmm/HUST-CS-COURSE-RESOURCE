@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute; /* 添加绝对定位 */
+    top: 100%; /* 下拉框相对于按钮的垂直位置 */
+    right: 0; /* 下拉框相对于按钮的水平位置 */
+    background-color: #fff;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu li {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .setting-button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+  }

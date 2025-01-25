@@ -1,0 +1,142 @@
+[
+  {
+    "id": "A1b2C3",
+    "name": "Data 1",
+    "description": "This is the first data sample",
+    "time": "2023-12-26T15:12:10",
+    "tagId": "2,errorTag"
+  },
+  {
+    "id": "D4e5F6",
+    "name": "Data 2",
+    "description": "This is the second data sample",
+    "time": "2023-12-26T15:12:15",
+    "tagId": "2,3"
+  },
+  {
+    "id": "G7h8I9",
+    "name": "Data 3",
+    "description": "This is the third data sample",
+    "time": "2023-12-25T10:00:00",
+    "tagId": "1,3"
+  },
+  {
+    "id": "J0k1L2",
+    "name": "Data 4",
+    "description": "This is the fourth data sample",
+    "time": "2023-12-27T09:30:00",
+    "tagId": "2,4"
+  },
+  {
+    "id": "M3n4O5",
+    "name": "Data 5",
+    "description": "This is the fifth data sample",
+    "time": "2023-12-27T10:15:00",
+    "tagId": "1,4"
+  },
+  {
+    "id": "P6q7R8",
+    "name": "Data 6",
+    "description": "This is the sixth data sample",
+    "time": "2023-12-28T14:20:00",
+    "tagId": "2,3"
+  },
+  {
+    "id": "S9t0U1",
+    "name": "Data 7",
+    "description": "This is the seventh data sample",
+    "time": "2023-12-28T16:45:00",
+    "tagId": "1,4"
+  },
+  {
+    "id": "V2w3X4",
+    "name": "Data 8",
+    "description": "This is the eighth data sample",
+    "time": "2023-12-29T08:00:00",
+    "tagId": "2,3"
+  },
+  {
+    "id": "Y5z6A7",
+    "name": "Data 9",
+    "description": "This is the ninth data sample",
+    "time": "2023-12-29T11:30:00",
+    "tagId": "2,4"
+  },
+  {
+    "id": "B8c9D0",
+    "name": "Data 10",
+    "description": "This is the tenth data sample",
+    "time": "2023-12-30T13:45:00",
+    "tagId": "1,3"
+  },
+  {
+    "id": "E1f2G3",
+    "name": "Data 11",
+    "description": "This is the eleventh data sample",
+    "time": "2023-12-30T16:20:00",
+    "tagId": "2,4"
+  },
+  {
+    "id": "H4i5J6",
+    "name": "Data 12",
+    "description": "This is the twelfth data sample",
+    "time": "2023-12-31T09:00:00",
+    "tagId": "2,3"
+  },
+  {
+    "id": "K7l8M9",
+    "name": "Data 13",
+    "description": "This is the thirteenth data sample",
+    "time": "2023-12-31T12:15:00",
+    "tagId": "1,4"
+  },
+  {
+    "id": "N0o1P2",
+    "name": "Data 14",
+    "description": "This is the fourteenth data sample",
+    "time": "2024-01-01T14:30:00",
+    "tagId": "2,3"
+  },
+  {
+    "id": "Q3r4S5",
+    "name": "Data 15",
+    "description": "This is the fifteenth data sample",
+    "time": "2024-01-01T17:00:00",
+    "tagId": "1,3"
+  },
+  {
+    "id": "T6u7V8",
+    "name": "Data 16",
+    "description": "This is the sixteenth data sample",
+    "time": "2024-01-02T09:45:00",
+    "tagId": "2,4"
+  },
+  {
+    "id": "W9x0Y1",
+    "name": "Data 17",
+    "description": "This is the seventeenth data sample",
+    "time": "2024-01-02T11:30:00",
+    "tagId": "1,4"
+  },
+  {
+    "id": "Z2a3B4",
+    "name": "Data 18",
+    "description": "This is the eighteenth data sample",
+    "time": "2024-01-03T13:20:00",
+    "tagId": "2,3"
+  },
+  {
+    "id": "C5d6E7",
+    "name": "Data 19",
+    "description": "This is the nineteenth data sample",
+    "time": "2024-01-03T16:00:00",
+    "tagId": "1,4"
+  },
+  {
+    "id": "F8g9H0",
+    "name": "Data 20",
+    "description": "This is the twentieth data sample",
+    "time": "2024-01-04T10:10:00",
+    "tagId": "2,4"
+  }
+]

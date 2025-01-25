@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week01-homework</title>
+</head>
+<body>
+    <form>
+        <label for="inputRow">
+            Row <input id="inputRow" type="text" onkeypress="checkNum(event)">
+        </label>
+        <label for="inputCol">
+            Column <input id="inputCol" type="text" onkeypress="checkNum(event)">
+        </label>
+
+    </form>
+    <button onclick="createForm(event)">button</button>
+
+    <table border="1">
+       
+    </table>
+</body>
+<script>
+    // prevent NaN
+    function checkNum(e){
+        var keyCode = e.keyCode;
+        // console.log(keyCode);
+        if(keyCode < 49 || keyCode > 57){
+            e.preventDefault();
+        }
+    }
+
+    // create form
+    function createForm(e){
+        var rowNum = document.getElementById("inputRow").value;
+        var colNum = document.getElementById("inputCol").value;
+        // console.log(rowNum);
+        var table = document.querySelector("table");
+        // console.log(table);
+
+        // clear table
+        var len = table.rows.length;
+        for(var i = 0;i < len;i++){
+            table.deleteRow(0);
+        }
+
+        // create new table
+        for(var i = 0;i < rowNum;i++){
+            var newRow = table.insertRow(-1);
+            // set color
+            if(i%2==0){
+                newRow.setAttribute("style","background-color:green");
+            }else{
+                newRow.setAttribute("style","background-color:yellow");
+            }
+            
+            for(var j = 0;j < colNum;j++){
+                var newCell = newRow.insertCell(-1);
+                var newText = document.createTextNode((i+1)+"行"+(j+1)+"列");
+                newCell.appendChild(newText);
+            }
+        }
+    }
+</script>
+</html>
