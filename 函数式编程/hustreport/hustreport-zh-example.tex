@@ -1,0 +1,493 @@
+%%
+%% This is file `hustreport-zh-example.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hustreport.dtx  (with options: `example-zh')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright (C) 2013-2014 by Xu Cheng <xucheng@me.com>
+%%               2014-2016 by hust-latex <https://github.com/hust-latex>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is hust-latex Organization.
+%% 
+%% This work consists of the files hustreport.dtx,
+%% hustreport.ins and the derived file hustreport.cls
+%% along with its document and example files.
+%% 
+%% \CharacterTable
+%% {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%  Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%  Digits        \0\1\2\3\4\5\6\7\8\9
+%%  Exclamation   \!     Double quote  \"     Hash (number) \#
+%%  Dollar        \$     Percent       \%     Ampersand     \&
+%%  Acute accent  \'     Left paren    \(     Right paren   \)
+%%  Asterisk      \*     Plus          \+     Comma         \,
+%%  Minus         \-     Point         \.     Solidus       \/
+%%  Colon         \:     Semicolon     \;     Less than     \<
+%%  Equals        \=     Greater than  \>     Question mark \?
+%%  Commercial at \@     Left bracket  \[     Backslash     \\
+%%  Right bracket \]     Circumflex    \^     Underscore    \_
+%%  Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%  Right brace   \}     Tilde         \~}
+\documentclass[format=draft,language=chinese,category=academic-report]{hustreport}
+
+\stuno{}
+\author{}
+\major{}
+\class{}
+\advisor{顾琳}
+
+\abstract{
+    本实验报告主要涵盖了函数式编程的相关内容。首先对函数式语言家族进行了调研，介绍了函数式编程的概念和特点，并列举了一些函数式语言家族的成员及其特征。接着，通过上机实验的学习和实践，总结了在函数式编程中的心得和体会，包括解题思路、代码实现、运行结果和性能分析等方面。最后，提出了对课程的建议和意见，包括头歌平台实验部署的改进意见和方案。本实验报告旨在全面了解函数式编程以及在实践中的应用和体会。
+
+}
+\keywords{函数式编程, 抽象和复用, 声明式风格, 不可变性,高阶函数}
+
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\makeabstract
+\tableofcontents
+\mainmatter
+
+\chapter{函数式语言家族成员}\label{chapter:1}
+\section{函数式语言概述}\label{sec:1}
+函数式编程是一种编程范式，它强调使用纯粹的数学函数来进行计算和问题求解。在函数式编程中，函数被视为一等公民，可以作为参数传递给其他函数，也可以作为返回值返回。与传统的命令式编程范式不同，函数式编程更加关注计算过程的描述而非控制流程的控制。
+
+函数式编程具有以下特点：
+\begin{enumerate}
+	\item 纯函数：\\
+	函数式编程中的函数是纯函数，即相同的输入总是产生相同的输出，且没有副作用。这意味着函数式编程中的函数不依赖于外部状态，易于理解和推理。
+	\item 不可变性：\\
+	函数式编程强调不可变数据，即数据一经创建就不能被修改。这样可以避免数据的意外修改和并发访问的竞态条件。
+	\item 引用透明性：\\
+	函数式编程中的表达式具有引用透明性，即可以用其结果替换表达式本身而不改变程序的行为。这种特性方便了代码的推理和优化。
+	\item 高阶函数：\\
+	函数式编程支持高阶函数，即函数可以接受函数作为参数或返回函数作为结果。这种特性使得代码更加抽象和灵活。
+\end{enumerate}
+
+函数式编程在实际应用中具有以下优势：
+
+\begin{enumerate}
+	\item 声明式风格：\\
+	函数式编程采用声明式的风格，更加关注问题的描述而非具体的实现步骤。这使得代码更易于理解和维护，减少了出错的可能性。
+	\item 并发和并行性：\\
+	由于函数式编程强调不可变性和无副作用的函数，使得函数式代码更易于并发执行和进行并行计算。函数之间的独立性使得并行化更容易实现。
+	\item 容错性：\\
+	函数式编程中的纯函数对于相同的输入总是产生相同的输出，不依赖于外部状态。这使得函数式代码更加容易测试和调试，减少了程序出错的可能性。
+	\item 抽象和复用：\\
+	高阶函数和不可变数据结构使得函数式编程更容易实现抽象和复用。函数可以作为参数传递和返回，可以轻松地构建出更高层次的抽象和模块化的代码。
+\end{enumerate}
+综上所述，函数式编程通过使用纯函数、不可变性和高阶函数等特性，以及强调声明式风格和并发性，提供了一种优雅而强大的编程范式，适用于解决许多实际问题。
+\section{函数式语言家族成员调研}
+函数式编程语言家族中有许多成员，每个成员都有其独特的特征和贡献。在本实验中，主要使用的是SML（Standard ML）语言。以下是关于SML以及其他一些常见函数式编程语言的简要调研：
+\subsection{SML（Standard ML）}
+\begin{itemize}
+	\item 提出者：罗宾·米尔纳（Robin Milner）
+	\item 特点：
+	\begin{itemize}
+		\item 强静态类型系统：SML具有强大的静态类型检查能力，可以在编译时捕获类型错误，提高代码的安全性和可靠性。
+		\item 模块系统：SML具有模块系统，可以帮助组织和管理大型程序的结构，并支持代码的复用和封装。
+		\item 模式匹配：SML支持模式匹配，可以方便地对数据结构进行解构和处理。
+		\item 垃圾回收：SML使用垃圾回收机制管理内存，减轻了程序员的内存管理负担。 
+	\end{itemize} 
+	\item 应用领域：SML广泛应用于教学和研究领域，尤其在编译器设计、形式验证和程序语言研究等方面有着重要的应用。
+\end{itemize}
+\subsection{Haskell}
+\begin{itemize}
+	\item 提出者：西蒙·佩顿·琼斯（Simon Peyton Jones）等
+	\item 特点：
+	\begin{itemize}
+		\item 懒惰（惰性）求值：Haskell采用非严格的、懒惰的求值策略，只在需要时才计算表达式的值，提供了更高的灵活性和表达能力。
+		\item 强静态类型系统：Haskell具有强大的静态类型检查，并支持类型推导，可以在编译时捕获类型错误。
+		\item 纯函数：Haskell鼓励编写纯函数，避免副作用，提高代码的可测试性和可维护性。
+		\item 高阶函数和类型类：Haskell支持高阶函数和类型类，使得代码更加抽象和灵活。
+	\end{itemize} 
+	\item 应用领域：Haskell广泛应用于函数式编程研究、编译器设计、并发编程、金融领域等。
+\end{itemize}
+\subsection{Lisp}
+\begin{itemize}
+	\item 提出者：约翰·麦卡锡（John McCarthy）
+	\item 特点：
+	\begin{itemize}
+		\item 宏系统：Lisp具有强大的宏系统，允许程序员扩展语言本身，实现元编程和领域特定语言（DSL）的开发。
+		\item 动态类型：Lisp是一种动态类型的编程语言，可以在运行时动态改变数据结构和代码。
+		\item S表达式：Lisp使用S表达式来表示代码和数据，具有简洁的语法和统一的数据表示形式。
+	\end{itemize} 
+	\item 应用领域：Lisp广泛应用于人工智能、自然语言处理、编译器设计等领域，是早期函数式编程语言的代表之一。
+\end{itemize}
+除了上述的SML、Haskell和Lisp，还有其他许多函数式编程语言，如Erlang、Scala、Clojure等，它们各自具有独特的特点和应用领域。
+\section{函数式编程的未来趋势}
+函数式编程在过去几年中得到了越来越多的关注和应用，它在解决复杂问题、构建可靠系统和提高开发效率方面展现出了许多优势。以下是对函数式编程未来的发展趋势的探讨和展望：
+
+\begin{enumerate}
+\item 增强的工具和生态系统：\\
+随着函数式编程的普及，我们可以预期会出现更多针对函数式编程的工具、框架和库。这些工具将帮助开发者更轻松地采用函数式编程，提供更好的开发支持和工作流程。同时，函数式编程的生态系统也会继续扩大，涌现出更多的开源项目和社区资源。
+\item 函数式编程与面向对象编程的融合：\\
+函数式编程和面向对象编程并不是互斥的，它们可以相辅相成。未来的发展趋势可能是将函数式编程和面向对象编程结合起来，创造出更强大的编程范式。例如，在一些现代编程语言中，已经开始出现将函数式和面向对象的概念相结合的方法，使得开发者可以根据需要选择最适合的编程风格。
+\item 并发和分布式编程的重要性：\\
+随着计算机体系结构的发展和云计算的普及，越来越多的应用需要处理并发和分布式的场景。函数式编程在并发和分布式编程中具有天然的优势，因为它强调不可变性和纯函数的特性，使得并发编程更加容易和可靠。未来，我们可以预期函数式编程在这些领域的应用将会进一步扩大。
+\item 函数式编程在机器学习和人工智能中的应用：\\
+机器学习和人工智能领域对于高性能计算和数据处理的需求非常高。函数式编程的特性，如纯函数和不可变性，使得它成为处理大规模数据和构建可解释模型的理想选择。因此，函数式编程在机器学习和人工智能领域有着巨大的潜力，未来可能会出现更多基于函数式编程的机器学习和人工智能框架。
+\end{enumerate}
+综上所述，函数式编程在未来有着广阔的发展前景。它将继续演进和融合其他编程范式，应用于更多领域，同时也会得到更好的工具支持和教育资源。函数式编程的特点和优势使得它在解决现实世界的复杂问题中具备独特的价值，为开发者提供更多选择和创新的机会。
+\chapter{实验内容}
+\section{实验内容概述}
+本实验旨在通过使用SML（Standard ML）语言，熟悉函数式编程的基本概念和技术。实验内容概述如下：
+\begin{enumerate}
+\item 环境准备：\\
+安装和配置SML/NJ开发环境，确保能够顺利运行SML程序。
+\item 简单程序编写：\\
+编写一些简单的SML程序，包括定义变量、函数，进行基本的算术运算，使用条件语句和循环结构等。
+\item 函数式编程特性实践：\\
+实践函数式编程的核心特性，如纯函数、不可变性、高阶函数等。编写一些例子，展示这些特性在SML中的应用。
+\item 模式匹配和递归：\\
+学习和应用SML中的模式匹配和递归技术，编写递归函数解决一些复杂的问题。
+\item 模块和库的使用：\\
+了解SML中的模块系统，学习如何使用和组织模块，以及如何使用标准库或第三方库扩展功能。
+\end{enumerate}
+实验的目标是让学习者熟悉SML的基本语法和函数式编程的核心概念，培养函数式思维和编程技能。通过实践编写SML程序，学习函数式编程的优势和应用，以及如何使用SML/NJ开发环境进行开发和调试。
+\section{函数式编程-实验一}
+\subsection{整数列表乘积Mult}
+\begin{enumerate}
+\item 编程思路\\
+函数 Mult 的目标是计算整数列表列表 R 中所有整数的乘积。该函数可以使用递归的方式实现。可以定义一个辅助函数 mult，用于计算一个整数列表中所有整数的乘积。然后，对于给定的整数列表列表 R，我们可以递归地将列表分解为头部和尾部，计算头部列表的乘积并与尾部列表的乘积相乘，从而得到整个列表的乘积。
+\item 代码实现
+\begin{lstlisting}
+fun Mult [ ] = 1
+| Mult (r :: R) = mult(r)*Mult(R)
+\end{lstlisting}
+\item 性能分析\\
+Mult 函数的运行结果是整数列表列表 R 中所有整数的乘积。函数具有线性的时间复杂度，因为它需要遍历整个列表 R，并对每个子列表调用辅助函数 mult。在最坏的情况下，需要进行 n 次乘法运算，其中 n 是列表 R 中所有整数的总数。因此，该函数的性能取决于输入列表的大小和结构。
+\end{enumerate}
+\subsection{整数列表乘积Multx}
+\begin{enumerate}
+\item 编程思路\\
+在这个函数的实现中，首先定义了一个辅助函数 multx，它接受一个整数列表 L 和一个整数 a。如果列表 L 为空，即递归的基本情况，函数直接返回整数 a，表示乘积为 a。如果列表 L 不为空，则将列表分解为头部元素 x 和尾部列表 L，然后递归地调用 multx(L, x * a)，将 x 乘以 a 并传递给下一次递归。这样，函数通过递归调用不断计算整数列表中所有整数与 a 的乘积，直到列表为空，最后返回整个列表的乘积。
+
+基于 multx 函数的定义，可以完成函数 Multx 的编写。该函数接受一个整数列表列表 R 和一个整数 a，用于计算 a 与列表 R 中所有整数的乘积。
+\item 代码实现
+\begin{lstlisting}
+fun multx ([ ], a) = a
+  | multx (x :: L, a) = multx (L, x * a);
+
+fun Multx( [ ], a) = a
+  | Multx(r :: R, a) = Multx(R,multx(r,a));
+\end{lstlisting}
+\item 性能分析\\
+multx 函数的时间复杂度为 O(n)，其中 n 是列表 L 的长度。函数通过递归调用依次计算整数列表中所有整数与 a 的乘积。
+
+Multx 函数的时间复杂度取决于列表列表 R 的大小和结构。假设列表 R 中的子列表平均长度为 m，并且列表 R 的总长度为 k。则 Multx 函数的时间复杂度为 O(k * m)。在最坏的情况下，需要对每个子列表调用 multx 函数进行乘法运算。
+\end{enumerate}
+\subsection{ZIP和UNZIP}
+\begin{enumerate}
+\item 编程思路\\
+zip 函数的思路是遍历两个输入列表，并按照索引位置提取对应元素，然后将提取到的元素构造成二元组，并将二元组添加到结果列表中。如果两个列表的长度不同，结果列表的长度将为两个输入列表长度的最小值。
+
+unzip 函数的思路是遍历输入的二元组列表，并将每个二元组的第一个元素和第二个元素分别提取出来，构造成两个单独的列表。最后返回这两个列表作为结果。
+\item 代码实现
+\begin{lstlisting}
+ (* zip : string list * int list -> (string * int) list *)
+fun zip ([],_) = []
+  | zip(_,[]) = []
+  | zip (a::A,b::B) = (a,b)::zip(A,B);
+ 
+ (* unzip : (string * int) list -> string list * int list *)
+fun unzip ([]) = ([],[])
+  | unzip((a,b)::pairs) = 
+    let
+        val (A,B) = unzip pairs
+    in 
+        (a::A,b::B)
+    end;
+\end{lstlisting}
+\item 性能分析\\
+对于 zip 函数，时间复杂度为 O(n)，其中 n 是两个输入列表中较小的那个列表的长度。因为函数通过遍历列表并提取元素来构造结果列表，所以时间复杂度与列表长度成正比。
+
+对于 unzip 函数，时间复杂度也为 O(n)，其中 n 是输入的二元组列表的长度。函数通过递归调用 unzip 函数来分解二元组列表，并将元素添加到结果列表中，所以时间复杂度与二元组列表的长度成正比。
+\end{enumerate}
+\section{函数式编程-实验二}
+\subsection{oddP函数}
+\begin{enumerate}
+\item 编程思路\\
+本题需要编写一个奇数判断函数 oddP，该函数接受一个整数作为输入，并返回一个布尔值，指示该数是否为奇数。根据题目要求，我们不能使用函数 evenP 或取模运算符来实现。
+
+可以使用递归的方式来判断奇数。如果输入数为 0，则返回 false，因为 0 不是奇数。如果输入数为 1，则返回 true，因为 1 是奇数。对于其他大于 1 的输入数，我们可以通过递归调用 oddP 函数，将输入数减去 2，继续判断减去后的数是否为奇数。这个过程将一直进行下去，直到输入数为 0 或 1。
+\item 代码实现
+\begin{lstlisting}
+fun oddP (0) = false
+| oddP (1) = true
+| oddP (a:int) = oddP (a-2)
+\end{lstlisting}
+\item 性能分析\\
+对于 oddP 函数，时间复杂度取决于输入的整数。在每次递归调用中，输入的整数都会减去 2，直到输入的整数为 0 或 1。因此，递归的深度为输入整数除以 2，时间复杂度为 $O(\frac{n}{2})$，其中 n 是输入的整数。可以简化为 $O(n)$。
+\end{enumerate}
+\subsection{interleave函数}
+\begin{enumerate}
+\item 编程思路\\
+需要编写一个函数 interleave，该函数接受两个整数列表作为输入，并返回一个新的整数列表，其中两个列表的元素交替出现，直到其中一个列表的元素全部使用完为止。如果其中一个列表还有剩余元素，那么这些剩余元素将直接附加到结果列表的尾部。
+
+可以使用递归的方式来实现。首先，需要处理一些基本情况：
+\begin{itemize}
+\item 如果两个输入列表都为空，那么结果列表也为空，我们可以返回空列表 []。
+\item 如果其中一个输入列表为空，而另一个不为空，那么我们可以直接返回非空列表作为结果。
+\end{itemize}
+对于非基本情况，我们可以采用以下策略来合并两个列表：
+\begin{itemize}
+\item 从两个列表的头部取出一个元素，然后将它们交替添加到结果列表中。
+\item 然后，对剩余的两个列表进行递归调用，继续合并它们的元素。
+\item 递归的终止条件是其中一个列表为空，此时我们可以直接将另一个非空列表的剩余元素附加到结果列表的尾部。
+\end{itemize}
+\item 代码实现
+\begin{lstlisting}
+fun interleave([],[]) = []
+| interleave(xs,[]) = xs
+| interleave([],ys) = ys
+| interleave(x::xs,y::ys) = x::y::interleave(xs,ys)
+\end{lstlisting}
+\item 性能分析\\
+对于 interleave 函数，时间复杂度取决于输入列表的长度。在每次递归调用中，我们都会从两个列表的头部取出一个元素，并将它们添加到结果列表中。因此，递归的深度是两个列表中较短的那个列表的长度。时间复杂度为 $O(min(m, n))$，其中 m 和 n 分别是两个输入列表的长度。
+\end{enumerate}
+\subsection{PrefixSum函数}
+\begin{enumerate}
+\item 编程思路\\
+需要编写两个函数 PrefixSum 和 fastPrefixSum，用于计算给定输入列表的前缀和数组。
+
+PrefixSum 函数的思路是通过递归和累积求和的方式计算前缀和数组。首先定义一个辅助函数 sumList，用于计算列表中所有元素的和。然后，定义另一个辅助函数 PrefixSumHelper，它将输入列表切分为当前元素和剩余元素两部分，并使用 sumList 函数计算当前部分的前缀和。然后将当前部分的前缀和添加到结果列表中，并递归调用 PrefixSumHelper 处理剩余部分。最后，返回结果列表作为最终的前缀和数组。
+
+fastPrefixSum函数的思路是通过一次遍历和累加的方式计算前缀和数组。定义一个辅助函数fastPrefixSumHelper，它接受三个参数：输入列表、当前的累加和和累加和的列表。函数从左到右遍历输入列表，在每个位置上，将当前累加和与当前元素相加，得到当前位置的前缀和，并将其添加到累加和的列表中。最后，返回累加和的列表作为最终的前缀和数组。
+\item 代码实现
+\begin{lstlisting}
+fun take (n, xs) =
+    if n <= 0 then []
+    else
+        case xs of
+            [] => []
+          | x::rest => x :: take(n - 1, rest);
+fun PrefixSum xs =
+    let
+        fun sumList [] = 0
+          | sumList (x::xs) = x + sumList xs;
+
+        fun PrefixSumHelper [] = []
+          | PrefixSumHelper xs =
+            let
+                val i = length xs;
+                val prefix = sumList (take(i, xs));
+            in
+                PrefixSumHelper (take(i-1, xs)) @ [prefix]
+            end;
+    in
+        PrefixSumHelper xs
+    end;
+fun fastPrefixSum xs =
+    let
+        fun fastPrefixSumHelper [] _ acc = List.rev acc
+          | fastPrefixSumHelper (x::xs) sum acc =
+            let
+                val prefix = sum + x;
+            in
+                fastPrefixSumHelper xs prefix (prefix::acc)
+            end;
+    in
+        fastPrefixSumHelper xs 0 []
+    end;
+\end{lstlisting}
+\item 性能分析\\
+对于 PrefixSum 函数，时间复杂度为 $O(n^2)$，其中 n 是输入列表的长度。因为函数使用递归和累积求和的方式计算前缀和，所以在每次递归调用中，都会执行一次长度为 i 的列表的求和操作，其中 i 从 n 递减到 0。因此，总的时间复杂度为$O(n^2)$。
+
+对于 fastPrefixSum 函数，时间复杂度为 $O(n)$，其中 n 是输入列表的长度。函数通过一次遍历和累加的方式计算前缀和，每个元素只会被访问一次，因此时间复杂度为 $O(n)$。
+\end{enumerate}
+\section{函数式编程-实验三}
+\subsection{listToTree}
+\begin{enumerate}
+\item 编程思路\\
+需要编写一个函数 listToTree，该函数接受一个整数列表作为输入，并将其转换为一棵平衡树。根据给定的代码示例，可以使用递归和分割操作来实现。
+
+函数的基本思路是将输入列表分割为两个较小的子列表，然后以列表中的第一个元素作为根节点创建一棵平衡树。递归地对左子列表和右子列表调用 listToTree 函数，分别构建左子树和右子树，然后将根节点、左子树和右子树组合成一棵完整的平衡树。
+\item 代码实现
+\begin{lstlisting}
+fun listToTree ([] : int list) : tree = Empty
+  | listToTree (x::l) =
+    let
+      val (left, right) = split l
+    in
+      Br(listToTree left, x, listToTree right)
+    end;
+\end{lstlisting}
+\item 性能分析\\
+对于 listToTree 函数，时间复杂度取决于输入列表的长度。在每次递归调用中，我们都将列表分割成两个较小的子列表，因此递归的深度为输入列表的长度。每个递归步骤都需要进行分割操作，其时间复杂度为 $O(n)$，其中 n 是输入列表的长度。由于递归深度为 n，总体时间复杂度为 $O(n^2)$。空间复杂度取决于递归调用的深度，即输入列表的长度，为 $O(n)$。
+\end{enumerate}
+\subsection{revT}
+\begin{enumerate}
+\item 编程思路\\
+需要编写一个函数 revT，该函数接受一棵平衡二叉树作为输入，并将其反转。反转后的树应该满足反转后的中序遍历结果与原树的中序遍历结果相反。
+
+函数的基本思路是递归地处理树的每个节点。对于每个节点，我们交换其左子树和右子树，并保持节点的值不变。然后递归地对左子树和右子树调用 revT 函数，以实现整棵树的反转。
+\item 代码实现
+\begin{lstlisting}
+fun revT (Empty : tree) : tree = Empty
+  | revT (Br(t1,r,t2) : tree) =
+    Br(revT(t2),r,revT(t1));
+\end{lstlisting}
+\item 性能分析\\
+对于 revT 函数，时间复杂度取决于树的大小。在每个递归步骤中，我们都对树的左子树和右子树进行反转操作，并递归地调用 revT 函数。因此，时间复杂度与树的节点数成正比。具体而言，假设树的节点数为 n，则时间复杂度为 $O(n)$。
+
+由于递归调用的深度与树的高度成正比，空间复杂度也与树的高度成正比。在最坏的情况下，树的高度为 $O(n)$，因此空间复杂度为 $O(n)$。
+\end{enumerate}
+\subsection{binarySearch}
+\begin{enumerate}
+\item 编程思路\\
+需要编写一个函数 binarySearch，该函数接受一个有序树和一个整数作为输入。函数的目标是判断树中是否存在值等于输入的整数。在函数中，使用系统提供的 Int.compare 函数来比较整数大小，而不使用 <, =, > 来进行比较。
+
+函数的基本思路是利用二叉搜索树的性质进行搜索。对于当前节点的值，我们与输入的整数进行比较。根据比较结果，可以确定目标值位于当前节点的左子树、右子树或者当前节点本身。然后，递归地在相应的子树中进行搜索，直到找到目标值或者遍历完整棵树为止。
+\item 代码实现
+\begin{lstlisting}
+fun binarySearch (Empty : tree, _ : int) : bool = false
+  | binarySearch(Br(t1,r,t2):tree,x:int) = 
+    case Int.compare(r, x) of
+        GREATER => binarySearch(t1,x)
+            | EQUAL => true
+            | LESS => binarySearch(t2,x);
+\end{lstlisting}
+\item 性能分析\\
+对于 binarySearch 函数，时间复杂度取决于树的高度。在每个递归步骤中，根据比较结果决定在左子树、右子树或当前节点中进行搜索。因此，时间复杂度与树的高度成正比。具体而言，假设树的高度为 h，则时间复杂度为 $O(h)$。
+
+由于递归调用的深度与树的高度成正比，空间复杂度也与树的高度成正比。在最坏的情况下，树的高度为 $O(n)$，其中 n 是树的节点数。因此，空间复杂度为 $O(n)$。
+\end{enumerate}
+\section{函数式编程-实验四}
+\subsection{findOdd}
+\begin{enumerate}
+\item 编程思路\\
+需要编写一个函数 findOdd，该函数接受一个整数列表作为输入，并返回一个选项型（option type）的整数。函数的功能是判断列表中的第一个奇数，并将其作为选项型结果返回。如果列表中不存在奇数，则返回 NONE。
+
+函数的基本思路是使用模式匹配对列表进行处理。我们首先检查列表是否为空，如果是空列表，则直接返回 NONE。如果列表不为空，则取出列表的头部元素 x，检查 x 是否为奇数。如果 x 是奇数，则返回 SOME x；否则，递归地在列表的剩余部分 xs 中继续搜索奇数。
+\item 代码实现
+\begin{lstlisting}
+fun findOdd (lst : int list) : int option =
+    case lst of
+        [] => NONE
+      | x::xs => if x mod 2 <> 0 then SOME x else findOdd xs;
+\end{lstlisting}
+\item 性能分析\\
+对于 findOdd 函数，时间复杂度取决于列表中的元素个数。在每个递归步骤中，我们检查列表的头部元素是否为奇数，并在剩余的列表中继续搜索。因此，时间复杂度与列表的长度成正比。具体而言，假设列表的长度为 n，则时间复杂度为 $O(n)$。
+
+由于递归调用的深度与列表的长度成正比，空间复杂度也与列表的长度成正比。在最坏的情况下，列表的长度为 $O(n)$，因此空间复杂度为 $O(n)$。
+\end{enumerate}
+\subsection{mapList}
+\begin{enumerate}
+\item 编程思路\\
+需要编写两个函数 mapList 和 mapList2，它们都实现了对整数集的数学变换操作。这些函数的基本思路是使用递归和高阶函数来处理列表中的元素，并将变换后的结果构建成新的列表返回。
+
+对于函数 mapList，它接受一个函数 f 和一个整数列表 lst 作为输入，并返回一个新的整数列表。函数 mapList 首先检查列表是否为空，如果是空列表，则直接返回空列表。如果列表不为空，则取出列表的头部元素 x，将函数 f 应用于 x，并将结果添加到新的列表中。然后，递归地在列表的剩余部分 xs 中继续进行相同的操作，直到遍历完整个列表。
+
+对于函数 mapList2，它接受一个函数 f 和一个整数列表 lst 作为输入，并返回一个新的整数列表。函数 mapList2 直接使用内置的 map 函数，将函数 f 应用于列表 lst 中的每个元素，并将结果构建成新的列表返回。
+\item 代码实现
+\begin{lstlisting}
+fun mapList (f, lst) =
+    case lst of
+        [] => []
+      | x::xs => (f x) :: mapList (f, xs);
+
+fun mapList2 f lst =
+    map f lst;
+\end{lstlisting}
+\item 性能分析\\
+对于 mapList 和 mapList2 函数，时间复杂度取决于列表中的元素个数。在每个递归步骤中，我们对列表的每个元素应用函数 f，并构建新的列表。因此，时间复杂度与列表的长度成正比。具体而言，假设列表的长度为 n，则时间复杂度为 $O(n)$。
+
+由于递归调用的深度与列表的长度成正比，空间复杂度也与列表的长度成正比。在最坏的情况下，列表的长度为 $O(n)$，因此空间复杂度为 $O(n)$。
+\end{enumerate}
+\subsubsection{exists}
+\begin{enumerate}
+\item 编程思路\\
+需要编写函数 exists，它接受一个函数 p 和一个整数列表 lst 作为输入，并返回一个布尔值。函数 exists 的功能是判断列表中是否存在满足条件 p 的元素，如果存在则返回 true，否则返回 false。
+
+函数 exists 的基本思路是使用递归来遍历列表中的元素，并对每个元素应用函数 p 进行判断。如果某个元素满足条件 p，则返回 true。如果列表为空，则返回 false。否则，递归地在列表的剩余部分继续进行相同的操作，直到遍历完整个列表。
+\item 代码实现
+\begin{lstlisting}
+fun exists p lst =
+    case lst of
+        [] => false
+      | x::xs => if p x then true else exists p xs;
+\end{lstlisting}
+\item 性能分析\\
+对于 exists 函数，时间复杂度取决于列表中的元素个数和执行函数 p 的开销。在最坏的情况下，需要遍历整个列表才能确定是否存在满足条件的元素。因此，时间复杂度为 $O(n)$，其中 n 是列表的长度。
+
+由于递归调用的深度与列表的长度成正比，空间复杂度也与列表的长度成正比。在最坏的情况下，列表的长度为 $O(n)$，因此空间复杂度为 $O(n)$。
+\end{enumerate}
+\chapter{上机心得体会}
+\section{实验总结}
+在进行函数式编程实验的过程中，我得到了以下体会和收获：
+\begin{enumerate}
+\item 函数式编程的理解深度提升：\\
+通过实验，我对函数式编程的思想和原则有了更深入的理解。我学会了将函数作为一等公民来操作和传递，注重不可变性和纯函数的编写，以及利用高阶函数、函数组合和柯里化等技术来实现抽象和复用。这些概念和技巧使我更好地掌握了函数式编程的核心思想，并能够将其应用到实际问题中。
+\item 实践能力的提升：\\
+通过实验，我有机会亲自编写函数式编程的代码，并进行测试和调试。这使我对函数式编程的实践能力得到了提升。我学会了如何编写纯函数、使用递归解决问题、应用高阶函数和函数组合等。通过实践，我加深了对函数式编程技术的理解，并能够更自如地运用它们来解决实际的编程任务。
+\item 提高代码质量和可维护性：\\
+函数式编程的特点之一是强调不可变性和纯函数的编写。在实验中，我深刻体会到这些原则对代码质量和可维护性的积极影响。通过避免副作用和外部状态的改变，我能够编写更加可靠和可测试的代码。函数式编程的技巧和方法使我能够将复杂的问题分解为简单的函数，并通过组合和封装来提高代码的可读性和可维护性。
+\item 深入思考程序设计的方式：\\
+函数式编程要求我们以更抽象和高层次的方式思考程序设计。在实验过程中，我被鼓励思考如何将问题抽象为函数，如何利用函数组合和高阶函数来实现更优雅的解决方案。这种思考方式使我对程序设计的方法和策略有了更深入的思考，并对编程的整体思维方式产生了积极的影响。
+\end{enumerate}
+总的来说，通过进行函数式编程实验，我不仅加深了对函数式编程的理解，提升了实践能力，还提高了代码质量和可维护性。函数式编程的思想和技术为我提供了一种新的编程范式，使我能够以更高效和优雅的方式解决问题。我相信，在今后的编程实践中，函数式编程的经验和技巧将对我产生长远的影响。
+\section{遇到的问题及解决方式}
+在实验中遇到的问题及解决方法：
+\begin{enumerate}
+\item 整数溢出：\\
+如果列表中的整数很大，乘积可能超出整数的表示范围，导致溢出。可以考虑使用大整数库或采用其他方法来处理大数乘法。
+\item 空列表处理：\\
+如果输入的列表 R 为空，我们定义乘积为 1。这可能是根据问题的要求来确定的，但在某些情况下，也可以考虑返回一个特定的值或引发异常来表示空列表的情况。
+\item 性能优化：\\
+如果输入列表非常大，递归调用可能导致堆栈溢出。可以考虑使用尾递归或迭代方式实现，以减少递归深度。
+\item 在递归调用 oddP 函数时，没有正确处理输入整数为负数的情况:\\
+由于题目要求输入整数大于等于 0，因此可以在函数定义中添加一个前提条件，即 a:int 的范围应为非负数，以确保输入的整数合法。
+\end{enumerate}
+\chapter{课程建议和意见}
+\section{课程知识梳理}
+在函数式编程的课程中，我们学习了许多关键知识点和重要概念。以下是对整个课程学习内容的总结和梳理：
+\begin{itemize}
+\item 函数作为一等公民：\\函数式编程将函数视为一等公民，可以像其他数据类型一样进行操作和传递。函数可以作为参数传递给其他函数，也可以作为返回值返回。
+
+\item 不可变性：\\函数式编程强调数据的不可变性，即数据一旦创建就不能被修改。这使得函数式编程具有更好的可维护性和并发性。在函数式编程中，通过创建新的数据副本来表示数据的变化。
+
+\item 纯函数：\\纯函数是指没有副作用且仅依赖于输入参数的函数。纯函数始终返回相同的结果，对于相同的输入参数，不会对外部状态造成任何影响。纯函数易于测试、理解和推理，并且能够方便地进行组合和重用。
+
+\item 递归：\\递归是函数式编程中常用的解决问题的技术。通过在函数内部调用自身来实现循环和迭代的效果。递归可以解决许多复杂的问题，但需要确保有适当的终止条件，以避免无限递归。
+
+\item 高阶函数：\\高阶函数是接受一个或多个函数作为参数，并/或返回一个函数的函数。高阶函数可以用来实现抽象、组合和封装。常见的高阶函数包括 map、filter、reduce 等。
+
+\item 函数组合：\\函数组合是将多个函数按照一定的顺序组合起来形成新的函数。通过函数组合，可以将多个简单的函数组合成复杂的函数，提高代码的可读性和可维护性。
+
+\item 柯里化：\\柯里化是将一个多参数的函数转换为一系列单参数的函数的过程。通过柯里化，可以将函数的调用变得更加灵活和可组合。
+
+\item 惰性求值：\\惰性求值是一种延迟计算的策略，只有在需要结果时才进行计算。这样可以避免不必要的计算，提高程序的性能。
+
+\item 常见函数式编程语言：\\函数式编程有许多流行的编程语言，如Haskell、Lisp、Scala、Clojure等。这些语言提供了丰富的函数式编程特性和库函数，支持函数作为一等公民、不可变性、高阶函数等概念。
+\end{itemize}
+通过学习以上关键知识点和重要概念，我们可以更好地理解函数式编程的思想和原则，掌握函数式编程的技巧和方法，编写出更加简洁、可维护和可复用的代码。函数式编程的思维方式可以帮助我们解决复杂的问题，提高代码的质量和效率。
+\section{课程建议}
+针对课程的改进意见和建议，我提出以下几点：
+\begin{enumerate}
+\item 多样化的教学方式：\\在课程中可以采用多样化的教学方式，例如结合理论讲解和实际案例分析，引入互动讨论和小组项目等形式。这样可以激发学生的兴趣，促进深入理解和实践能力的提升。
+\item 实践环节设计：\\增加更多的实践环节，帮助学生巩固所学知识。可以设计一些练习题和编程任务，让学生亲自动手实践函数式编程的技巧和方法。同时，提供详细的实践指导和反馈，帮助学生更好地理解和应用所学内容。
+\item 案例研究和实际应用：\\结合实际案例和应用场景进行深入分析和讨论，可以帮助学生将函数式编程应用到实际问题中。通过实际案例的讲解，学生可以更好地理解函数式编程的优势和实际应用的价值，提升他们的实际应用能力。
+\end{enumerate}
+
+\end{document}
+\endinput
+%%
+%% End of file `hustreport-zh-example.tex'.
