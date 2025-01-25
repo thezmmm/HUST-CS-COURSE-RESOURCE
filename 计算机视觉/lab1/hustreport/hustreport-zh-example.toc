@@ -1,0 +1,22 @@
+
+\contentsline {chapter}{\numberline {1}实验要求}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}实验内容}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}数据集划分}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}神经网络模型}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}网络参数}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}网络层数}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}神经元数量}{3}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}激活函数}{5}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}优化器}{5}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}损失函数}{5}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}训练轮数}{5}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}批量大小}{5}{subsection.2.3.7}%
+\contentsline {chapter}{\numberline {3}实验结果}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}迭代次数的影响}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}激活函数的影响}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}网络层数及神经元数量的影响}{9}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}神经元数量的影响}{9}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}网络层数的影响}{11}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}总结}{11}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}总结}{12}{chapter.4}%
+\contentsfinish 

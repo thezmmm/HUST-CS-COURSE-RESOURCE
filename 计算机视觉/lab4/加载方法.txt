@@ -1,0 +1,1 @@
+model = tf.keras.models.load_model('tf_vgg16')

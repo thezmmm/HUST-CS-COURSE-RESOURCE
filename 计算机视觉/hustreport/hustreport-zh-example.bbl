@@ -1,0 +1,121 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Zou et~al.(2023)Zou, Chen, Shi, Guo, and Ye]{10028728}
+Zou Z, Chen K, Shi Z, et~al.
+\newblock Object detection in 20 years: A survey\allowbreak[J/OL].
+\newblock Proceedings of the IEEE, 2023, 111\allowbreak (3): 257-276.
+\newblock DOI: \doi{10.1109/JPROC.2023.3238524}.
+
+\bibitem[He et~al.(2015)He, Zhang, Ren, and Sun]{7005506}
+He K, Zhang X, Ren S, et~al.
+\newblock Spatial pyramid pooling in deep convolutional networks for visual
+  recognition\allowbreak[J/OL].
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence, 2015,
+  37\allowbreak (9): 1904-1916.
+\newblock DOI: \doi{10.1109/TPAMI.2015.2389824}.
+
+\bibitem[Girshick et~al.(2014)Girshick, Donahue, Darrell, and
+  Malik]{girshick2014rich}
+Girshick R, Donahue J, Darrell T, et~al.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation\allowbreak[A].
+\newblock 2014.
+\newblock arXiv: \eprint{https://arxiv.org/abs/1311.2524}{1311.2524}.
+
+\bibitem[Girshick(2015)]{7410526}
+Girshick R.
+\newblock Fast r-cnn\allowbreak[C/OL]//\allowbreak
+2015 IEEE International Conference on Computer Vision (ICCV).
+\newblock 2015: 1440-1448.
+\newblock DOI: \doi{10.1109/ICCV.2015.169}.
+
+\bibitem[Ren et~al.(2015)Ren, He, Girshick, and Sun]{NIPS2015_14bfa6bb}
+Ren S, He K, Girshick R, et~al.
+\newblock Faster r-cnn: Towards real-time object detection with region proposal
+  networks\allowbreak[C/OL]//\allowbreak
+Cortes C, Lawrence N, Lee D, et~al.
+\newblock Advances in Neural Information Processing Systems: volume~28.
+\newblock Curran Associates, Inc., 2015.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf}.
+
+\bibitem[Dai et~al.(2016)Dai, Li, He, and Sun]{NIPS2016_577ef115}
+Dai J, Li Y, He K, et~al.
+\newblock R-fcn: Object detection via region-based fully convolutional
+  networks\allowbreak[C/OL]//\allowbreak
+Lee D, Sugiyama M, Luxburg U, et~al.
+\newblock Advances in Neural Information Processing Systems: volume~29.
+\newblock Curran Associates, Inc., 2016.
+\newblock
+  \url{https://proceedings.neurips.cc/paper_files/paper/2016/file/577ef1154f3240ad5b9b413aa7346a1e-Paper.pdf}.
+
+\bibitem[Lin et~al.(2017)Lin, Dollar, Girshick, He, Hariharan, and
+  Belongie]{Lin_2017_CVPR}
+Lin T~Y, Dollar P, Girshick R, et~al.
+\newblock Feature pyramid networks for object
+  detection\allowbreak[C]//\allowbreak
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR).
+\newblock 2017.
+
+\bibitem[He et~al.(2017)He, Gkioxari, Dollár, and Girshick]{8237584}
+He K, Gkioxari G, Dollár P, et~al.
+\newblock Mask r-cnn\allowbreak[C/OL]//\allowbreak
+2017 IEEE International Conference on Computer Vision (ICCV).
+\newblock 2017: 2980-2988.
+\newblock DOI: \doi{10.1109/ICCV.2017.322}.
+
+\bibitem[Erhan et~al.(2013)Erhan, Szegedy, Toshev, and
+  Anguelov]{erhan2013scalable}
+Erhan D, Szegedy C, Toshev A, et~al.
+\newblock Scalable object detection using deep neural networks\allowbreak[A].
+\newblock 2013.
+\newblock arXiv: \eprint{https://arxiv.org/abs/1312.2249}{1312.2249}.
+
+\bibitem[Redmon et~al.(2016)Redmon, Divvala, Girshick, and
+  Farhadi]{redmon2016look}
+Redmon J, Divvala S, Girshick R, et~al.
+\newblock You only look once: Unified, real-time object
+  detection\allowbreak[A].
+\newblock 2016.
+\newblock arXiv: \eprint{https://arxiv.org/abs/1506.02640}{1506.02640}.
+
+\bibitem[Liu et~al.(2016)Liu, Anguelov, Erhan, Szegedy, Reed, Fu, and
+  Berg]{Liu_2016}
+Liu W, Anguelov D, Erhan D, et~al.
+\newblock Ssd: Single shot multibox detector\allowbreak[M/OL].
+\newblock Springer International Publishing, 2016: 21–37.
+\newblock \url{http://dx.doi.org/10.1007/978-3-319-46448-0_2}.
+
+\bibitem[Redmon et~al.(2016)Redmon and Farhadi]{redmon2016yolo9000}
+Redmon J, Farhadi A.
+\newblock Yolo9000: Better, faster, stronger\allowbreak[A].
+\newblock 2016.
+\newblock arXiv: \eprint{https://arxiv.org/abs/1612.08242}{1612.08242}.
+
+\bibitem[Fu et~al.(2017)Fu, Liu, Ranga, Tyagi, and Berg]{fu2017dssd}
+Fu C~Y, Liu W, Ranga A, et~al.
+\newblock Dssd : Deconvolutional single shot detector\allowbreak[A].
+\newblock 2017.
+\newblock arXiv: \eprint{https://arxiv.org/abs/1701.06659}{1701.06659}.
+
+\bibitem[Zhou et~al.(2023)Zhou, Wei, Ran, Liu, Fu, and Ren]{Zhou_2023jaciii}
+Zhou L~Y, Wei D, Ran Y~B, et~al.
+\newblock Reclining public chair behavior detection based on improved
+  yolov5\allowbreak[J/OL].
+\newblock Journal of Advanced Computational Intelligence and Intelligent
+  Informatics, 2023, 27\allowbreak (6): 1175-1182.
+\newblock DOI: \doi{10.20965/jaciii.2023.p1175}.
+
+\end{thebibliography}
